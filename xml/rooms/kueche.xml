@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<room id="5" name="Kueche">
-	<desc>Du stehst in der sonnendurchfluteten Küche des Hauses. Die Spüle
-		ist voll mit dreckigem Geschirr, dessen Anblick durch die darüber an
-		die Fliesen geklebten Prilblumen nicht viel besser wird.|Neben dem
-		kleinen Küchentisch steht in der Ecke der Kühlschrank.|Etwas weiter
-		links vom Kühlschrank befindet sich eine Tafel an der Wand.
-	</desc>
-	<exits>
-		<exit room="erd">W</exit>
-	</exits>
-	<items>
-		<item>13</item>
-		<item>14</item>
-		<item>15</item>
-	</items>
-	<operations>
-		<operation command="7" item="15" unique="1" remove_inv=""
-			remove_room="" add_room="" add_inv="16" unlock="" with_item=""
-			remove_both="" portal_to="">Im Kühlschrank findest du ein in Frischhaltefolie eingewickeltes Wurstbrot. Du nimmst es heraus und steckst es ein.
-		</operation>
-		<operation command="14" item="14" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">'Hallo! Wir sind erst spät von der Arbeit zurück. Im Kühlschrank findest du etwas zum Frühstück. Viel Spaß heute, Mama!'
-		</operation>
-	</operations>
+<room id="2" name="Kueche">
+    <desc>Die Kueche ist, wie ueberhaupt die ganze Wohnung, nicht besonders gross. Hier befindet sich ein einfacher Tisch und euer alter Kühlschrank.
+        Die Sonne scheint nur am Morgen durch das kleine Fenster hinein, den Rest das Tages ist es in der Küche eher trübe. Eine einsame Fliege dreht ihre Runden
+        über dem dreckigen Geschirr in der Spüle. Eindeutig ein Problem deines Zukunftsichs, das deinem Gegenwartsich völlig egal ist.|Im Süden schließt sich das Wohnzimmer an die Küche an.
+    </desc>
+    <exits>
+        <exit room="flur">W</exit>
+        <exit room="wohnzimmer">S</exit>
+    </exits>
+    <items>
+        <item>3</item>
+        <item>8</item>
+    </items>
+    <operations>
+        <operation command="7" item="8" unique="" remove_inv="" remove_room="" add_room="" add_inv="9" unlock=""
+                   with_item="" remove_both="" portal_to="">Du öffnest den Kühlschrank auf der Suche nach Essbarem. Viel ist nicht drin, deine Mutter füllt ihn bestimmt nachher wieder auf.
+            Aber immerhin ist ein Apfel drin. Du nimmst ihn dir heraus und schließt den Kühlschrank wieder.
+        </operation>
+        <operation command="9" item="8" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">*RUMMS* Nimm das, elender Kühlgeselle!
+        </operation>
+    </operations>
 </room>

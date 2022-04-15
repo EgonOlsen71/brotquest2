@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="9" name="Fussweg vor dem Haus">
+<desc>Der Fußweg vor dem Wohnblock ist mit Waschbetonplatten ausgelegt. Günstig und abwaschbar, eben pragmatisch wie die Wohnblocks selbst. Durch den Rasen und die blühende Büsche
+    hier sieht es aber nicht ganz so trotzlos aus.|Die Nummer 10, euer Eingang, ist der letzte in der Reihe. Deswegen endet der Fussweg hier und geht in einen kleinen Platz über, in dessen Mitte eine Laterne steht.
+    |Im Osten liegt euer Hauseingang, der Fussweg geht im Südwesten weiter.
+</desc>
+<exits>
+    <exit room="eingang">O</exit>
+</exits>
+<items>
+    <item>18</item>
+    <item>20</item>
+</items>
+    <operation command="12" item="18" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Du betrachtest das Mädchen genauer. Sie hat lange, blonde Zöpfe, die aber seltsam starr wirken. Sie könnte so alt sein wie du...oder auch viel älter.
+        Irgendwas an ihr ist merkwürdig...
+    </operation>
+    <operation command="13" item="18" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">"Na du? Weißt du, ich bin auf der Suche nach echten Computerfreaks! Die sind total süß!
+        Kennst du einen oder bist du sogar selber einer? Beweis es mir und wir können uns unterhalten!"
+    </operation>
+    <operation command="12" item="19" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Tanja lehnt an einer Laterne. Ab und zu blickt sie in einen Notizblock, um dann wieder an den Häusern entlang zu schauen.
+        Von Zeit zu Zeit kichert sie leise. Alles in Allem wirkt sie schräg und nicht wie ein Teenager.
+    </operation>
+    <operation command="12" item="20" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Die Taube sitzt oft hier herum. Sie ist ziemlich fett und ziemlich verfressen. Sie soll sogar schon Leuten Kekse aus der Hand geklaut haben.
+        Vermutlich lauert sie hier nur darauf, das irgendwer mit etwas Essbarem aufkreuzt.
+    </operation>
+    <operation command="15" item="20" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item="9"
+               remove_both="" portal_to="">Die Taube schaut auf den Apfel und dreht demonstrativ den Kopf weg. Sie mag wohl kein Obst!
+    </operation>
+    <operation command="15" item="18" unique="1" remove_inv=""
+               remove_room="" add_room="19" add_inv="" unlock="" with_item="13"
+               remove_both="1" portal_to="">"Oh, eine Happy!" Sie blättert darin herum. "Guck mal, da ist Platoon drin getestet! Cool!
+        Wenn die Spiele nur nicht so teuer wären!". Sie steckt die Happy ein. "Danke! Ich bin übrigens Tanja, ich bin 15!"
+    </operation>
+    <operation command="13" item="19" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">"Weißt du, ich bin auf der Suche nach heißen...Spielen! Hast du welche? Ich tausche alles! Oder kennst du hier jemanden,
+        der welche hat?"...in deinem Hinterkopf flüstert eine Stimme leise etwas von "Vorsicht..."
+    </operation>
+</room>

@@ -1,56 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<room id="6" name="Wohnzimmer">
-	<desc>Das Wohnzimmer ist der größte Raum im ganzen Haus. Im Moment ist
-		er allerdings ziemlich leer, weil deine Eltern das Sofa zum
-		Neubeziehen
-		gebracht haben. Man sieht noch die Abdrücke an der
-		Raufasertapete, wo es einmal gestanden hat.|Es stehen hier noch der
-		Tisch und der große
-		Farbfernseher.
-	</desc>
-	<exits>
-		<exit room="erd">O</exit>
-		<exit room="schlaf">S</exit>
-	</exits>
-	<items>
-		<item>3</item>
-		<item>13</item>
-	</items>
-	<operations>
-		<operation command="1" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Farbe, 67cm-Bildröhre, Stereo...das neueste
-			Modell (vom letzten Jahr).
-		</operation>
-		<operation command="1" item="13" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Ein niedriger, schwerer Eichentisch mit
-			einer eingelassenen Schieferplatte.
-		</operation>
-		<operation command="8" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Du schaltest den Fernseher ein, aber es
-			läuft nichts
-			Interessantes auf irgendeinem der drei Programme.
-		</operation>
-		<operation command="8" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item="4"
-			remove_both="" portal_to="">Du verbindest den Z81 mit dem Fernseher. Er
-			funktioniert,
-			aber was will man mit 1 KB schon anfangen? Frustriert
-			kabelst du ihn
-			wieder ab.
-		</operation>
-		<operation command="8" item="40" unique="1" remove_inv="40"
-			remove_room="" add_room="" add_inv="" unlock="" with_item="3"
-			remove_both="" portal_to="3">Du verbindest den C64 samt Zubehör mit dem
-			Fernseher. Ein Moment, so grandios wie die Mondlandung! 'READY.'...du
-			laedst das Spiel, das dabei war...
-		</operation>
-		<operation command="9" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Du haust gegen den Fernseher. Warum auch
-			immer!
-		</operation>
-	</operations>
+<room id="3" name="Wohnzimmer">
+    <desc>Das Wohnzimmer ist das größte Zimmer der Wohnung, aber alles ist relativ. Viel mehr als Tisch, Sofa und Fernseher passen nicht hinein.
+        Der Tisch ist gleichzeitig die Poststelle der Wohnung. Wenn deine Mutter dir etwas mitteilen möchte oder will, dass du etwas mitnimmst, dann liegt es immer hier, auf der
+        vorderen Ecke.|Das ist so ein Familiending aus der Zeit, als ihr noch eine komplette Familie wart. Also bevor dein Vater sich nach Spanien abgesetzt hat.|Im Süden ist das Badezimmer, im Westen das Schlafzimmer deiner Mutter.
+    </desc>
+    <exits>
+        <exit room="kueche">N</exit>
+        <exit room="bad">S</exit>
+        <exit room="schlafzimmer">W</exit>
+    </exits>
+    <items>
+        <item>2</item>
+        <item>3</item>
+        <item>10</item>
+        <item>11</item>
+    </items>
+    <operations>
+        <operation command="9" item="2" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du haust gegen den Fernseher. Warum auch
+            immer!
+        </operation>
+        <operation command="8" item="2" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du schaltest den Fernseher ein, aber es
+            läuft nichts
+            Interessantes auf irgendeinem der drei Programme.
+        </operation>
+        <operation command="8" item="11" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du setzt dich auf der Sofa. Es ist klein, aber sehr bequem. Ein wenig schaust du den Staubflusen zu,
+            die dein Hinsetzen aufgewirbelt hat und die nun in der Sonne tanzen. Dann stehst du wieder auf.
+        </operation>
+    </operations>
 </room>

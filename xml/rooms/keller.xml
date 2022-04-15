@@ -1,35 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<room id="25" name="Keller der Polizei">
-	<desc>
-		Du bist im Rumpelkeller des Polizeireviers. Flackerndes,
-		anscheinend über einen Bewegungsmelder gesteuertes, Neonlicht erhellt
-		den Raum. Hier lagern die Beamten allen möglichen Schrott, den sie
-		wohl nicht mehr für ihre Arbeit
-		benötigen.|Es wird sicher niemanden stören,
-		wenn du dir hier etwas
-		'ausleihst'. Die Sachen kommen früher oder
-		später ohnehin auf den
-		Müll.|Von hier führt eine Treppe nach oben
-		zurück in die Gasse.
-	</desc>
-	<items>
-		<item>34</item>
-		<item>0</item>
-	</items>
-	<exits>
-		<exit room="gasse">H</exit>
-	</exits>
-	<operations>
-		<operation command="1" item="0" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Ein ausrangierter Büroschrank, der offen
-			steht. In ihm und um ihn herum verteilt liege diverse Gegenstände,
-			die meisten davon kaputt oder nutzlos. Oder beides.
-		</operation>
-		<operation command="7" item="0" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Der Schrank ist schon offen.
-		</operation>
-	</operations>
-
+<room id="8" name="Keller">
+    <desc>Du bist im Keller. Hier hat jeder Mieter seinen kleinen Holzverschlag, gesichert mit einem Vorhängeschloss.
+        In eurem ist eigentlich nur Gerümpel und genauso dürfte es bei den anderen aussehen. Ein paar Wandleuchten erhellen den Keller mehr schlecht als recht.|
+        In einer Ecke des Kellers liegt ein Haufen Sperrmüll, kaputte Möbel und sowas. Vermutlich hat die ein ehenmaliger Mieter hier "vergessen". Den müsste wohl mal jemand (das ich-ausschließende Jemand) an die Straße stellen, wenn die nächste Abholung ist.|
+        Die Treppe nach oben führt zurück zum Hauseingang.
+    </desc>
+    <exits>
+        <exit room="eingang">H</exit>
+    </exits>
+    <items>
+        <item>17</item>
+    </items>
 </room>

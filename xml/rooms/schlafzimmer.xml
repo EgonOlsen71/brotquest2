@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="4" name="Schlafzimmer">
+    <desc>Das Schlafzimmer deiner Mutter ist das kleinste Zimmer in eurer Wohnung. Außer dem Bett ist hier nicht viel, einfach weil nicht viel mehr reinpasst. Aber es ist ein freundlicher, sonnenverwöhnter Raum.|Von mir aus geht es nur zurück ins Wohnzimmer.
+    </desc>
+    <exits>
+        <exit room="wohnzimmer">O</exit>
+    </exits>
+    <items>
+        <item>0</item>
+        <item>6</item>
+    </items>
+    <operations>
+        <operation command="8" item="0" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du bist 16! Da schläft man doch in seinem eigenen Bett!
+        </operation>
+        <operation command="7" item="6" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du öffnest das Fenster und schaust hinaus. Die Aussicht ist dieselbe, wie die in deinem Zimmer.
+        </operation>
+    </operations>
+</room>

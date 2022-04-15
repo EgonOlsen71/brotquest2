@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="6" name="Treppenhaus">
+    <desc>Du stehst im Treppenhaus eures Wohnblocks. Gegenüber eurer Wohnung ist noch eine weitere, hier wohnt Vladi mit seinen Eltern.
+        Vladi ist etwas älter als Du (oder sieht zumindest so aus) und irgendwie schafft er es, immer die neuesten Computer und die neueste
+        Software zu haben. Manchmal verkauft er sogar Teile davon.|Im Süden liegt eure Wohnung, nach unten geht es zum Hauseingang.
+    </desc>
+    <exits>
+        <exit room="flur">S</exit>
+        <exit room="eingang">R</exit>
+    </exits>
+    <items>
+        <item>14</item>
+        <item>15</item>
+    </items>
+    <operations>
+        <operation command="8" item="14" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du drückst den Klingelknopf, aber es passiert nichts. Kein Ding-Dong, nichts...
+        </operation>
+        <operation command="12" item="14" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Bei näherer Betrachtung sieht die Klingel etwas ramponiert aus. Sie hängt halb aus der Wand und man kann dahinter die Kabel sehen.
+        </operation>
+        <operation command="8" item="15" unique="1" remove_inv=""
+                   remove_room="15" add_room="16" add_inv="" unlock="" with_item="17"
+                   remove_both="" portal_to="">Du klopfst mit dem Tischbein an die Tür. Nach einer Weile öffnet dir Vladi, wie immer in Jogginghose. "Alter, wieso klingest du nicht...schon wieder kaputt?". Er beginnt, an der Klingel zu fummeln...
+        </operation>
+        <operation command="8" item="15" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du klopfst an die Tür, aber niemand kommt. Du bräuchtest etwas, um deinem Klopfen etwas Nachdruck zu verleihen.
+        </operation>
+        <operation command="12" item="16" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Vladi ist vielleicht kein Trendsetter im Modebereich, aber ein echter Computer...besitzer. Also er besitzt viele Computer. Womit er die bezahlt, kannst du dir nicht so richtig erklären aber es ist dir auch egal.
+        </operation>
+        <operation command="13" item="16" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">"Verdammte Klingel..."...er dreht sich zu dir um. "Alter, wenn du den A500 haben willst...für 800 DM gehört er dir!. Schnäppchenpreis!". Als du nicht reagierst, zuckt er mit den Achseln und wendet sich wieder der Klingel zu.
+        </operation>
+        <operation command="9" item="16" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du prügelst Vladi bewusstlos und klaust ihm alle seine Computer...nicht! Bist du noch ganz knusper?
+        </operation>
+    </operations>
+</room>

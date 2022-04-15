@@ -545,7 +545,7 @@
 
 60000 rem init
 60002 print "Einen Moment..."
-60005 mx%=30:mr%=35:mi%=50:mc%=16:xo%=8:cb$=chr$(13)+"> ":lr%=0:mo%=20
+60005 mx%=30:mr%=35:mi%=50:mc%=16:xo%=11:cb$=chr$(13)+"> ":lr%=0:mo%=20
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
 60010 dim it$(50), il$(50), mv%(50), ti%: rem all items (mi%)
 60020 dim rd$(24), pl%, rd%: rem current room's description
@@ -563,7 +563,7 @@
 60120 dim rs%(50): rem flag, that an item lies somewhere else (mi%)
 60130 for i=0 to mr%:for p=0 to 8:rv%(i,p)=-1:next p,i: rem clear room inv.
 60140 dim dr$(9):for i=0 to 9:read dr$(i):next: rem direction strings
-60150 dim op%(8,10), op$(8,5), oc%: rem possible operations in a room (xo%)
+60150 dim op%(11,10), op$(11,5), oc%: rem possible operations in a room (xo%)
 60160 dim od$(30), od%: rem operations applied (command ID_item 1_item_2) (mx%)
 60170 dim og%(20,10), og$(20,5), gc%: rem ops. on items in the inventory (mo%)
 60180 dim ac%(10): rem actions of the current operation

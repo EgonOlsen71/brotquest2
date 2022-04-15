@@ -332,6 +332,7 @@ public class Converter {
 		}
 		write(os, null, v, false);
 		tmp = it.getAttribute("remove_inv");
+		tmp = it.getAttribute("remove_inv");
 		write(os, null, getValue(tmp), false);
 		tmp = it.getAttribute("remove_room");
 		write(os, null, getValue(tmp), false);

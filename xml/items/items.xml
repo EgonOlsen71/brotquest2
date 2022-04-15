@@ -1,222 +1,133 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <items>
-	<item id="0" inventory="0">
-		<name>Schrank</name>
-		<desc>Einfach ein Schrank.</desc>
-	</item>
-	<item id="1" inventory="1">
-		<name>Poster</name>
-		<desc>Auf dem Poster ist die Mannschaft des HSV zu sehen. Du bist kein großer Fußballfan, aber ohne Poster war die Wand so kahl.</desc>
-	</item>
-	<item id="2" inventory="1">
-		<name>Kalender</name>
-		<desc>Der Kalender zeigt das Jahr 1984. Heute ist der 19. Juli, der erste Ferientag.</desc>
-	</item>
-	<item id="3" inventory="0">
-		<name>Fernseher</name>
-		<desc>Ein einfacher, kleiner Farbfernseher.</desc>
-	</item>
-	<item id="4" inventory="1">
-		<name>ZX81</name>
-		<desc>Ein ZX81. Dein erster Computer! Aber mit 1 KB Speicher kann man nicht viel anfangen. Er hat die Form eines Türkeils und eine schreckliche Tastatur.</desc>
-	</item>
-	<item id="5" inventory="1">
-		<name>Zeitschrift</name>
-		<desc>Die Zeitschrift 64er in der Ausgabe 7/1984. Auf dem Cover sind eine Weltkugel und ein C64 zu sehen. Episch!</desc>
-	</item>
-	<item id="6" inventory="0">
-		<name>Klappe</name>
-		<desc>Die Klappe führt auf den Kriechboden. Sie ist zu weit oben, um sie von hier aus zu öffnen.</desc>
-	</item>
-	<item id="7" inventory="1">
-		<name>Zugstab</name>
-		<desc>Ein Stab mit einem Haken dran.</desc>
-	</item>
-	<item id="8" inventory="0">
-		<name>Toilette</name>
-		<desc>Sie ist grün!</desc>
-	</item>
-	<item id="9" inventory="1">
-		<name>Handtuch</name>
-		<desc>Ein weichgespültes Handtuch, das nach April duftet...vielleicht.</desc>
-	</item>
-	<item id="10" inventory="1">
-		<name>Kaugummi</name>
-		<desc>Eine Packung Blubba-Blubba, das mit den Klebeblasen. Dein Lieblingskaugummi. Nicht mehr ganz neu, aber noch in Ordnung.</desc>
-	</item>
-	<item id="11" inventory="0">
-		<name>Nachtschrank</name>
-		<desc>Ein hässlicher Nachtschrank. Vor 30 Jahren sah der sicher noch gut aus.</desc>
-	</item>
-	<item id="12" inventory="0">
-		<name>Bus</name>
-		<desc>Buslinie 341 - Der Bus pendelt zwischen dem Vorort und der Stadt.</desc>
-	</item>
-	<item id="13" inventory="0">
-		<name>Tisch</name>
-		<desc>Ein einfacher Tisch.</desc>
-	</item>
-	<item id="14" inventory="0">
-		<name>Tafel</name>
-		<desc>Eine Tafel, auf der deine Eltern ab und zu Nachrichten an dich hinterlassen.</desc>
-	</item>
-	<item id="15" inventory="0">
-		<name>Kühlschrank</name>
-		<desc>Der Kühlschrank ist ein treuer Freund der Familie. Ohne ihn wäre das Leben sinnlos.</desc>
-	</item>
-	<item id="16" inventory="1">
-		<name>Wurstbrot</name>
-		<desc>Das Brot ist dick mit Salami belegt.</desc>
-	</item>
-	<item id="17" inventory="0">
-		<name>Bett</name>
-		<desc>Ein einfaches, schlichtes Bett.</desc>
-	</item>
-	<item id="18" inventory="0">
-		<name>Briefkasten</name>
-		<desc>Euer Briefkasten ist ein einfacher, schwarzer Metalkasten. Es klebt die Nummer 34 darauf.</desc>
-	</item>
-	<item id="19" inventory="1">
-		<name>Brief</name>
-		<desc>Der Brief ist an dich addressiert.</desc>
-	</item>
-	<item id="20" inventory="1">
-		<name>Ferienpass</name>
-		<desc>Dein Ferienpass. Er erlaubt günstige Schwimmbadbesuche und kostenlose Busfahrten während der Ferien.</desc>
-	</item>
-	<item id="21" inventory="0">
-		<name>Schild</name>
-		<desc>?</desc>
-	</item>
-	<item id="22" inventory="0">
-		<name>Junge</name>
-		<desc>Der Junge ist vielleicht 5 Jahre alt. Er schaut dich erwartungsvoll an.</desc>
-	</item>
-	<item id="23" inventory="0">
-		<name>Drachen</name>
-		<desc>Ein Papierdrachen. Er hängt in einem Baum fest. Man kommt mit bloßen Haenden nicht an ihn ran.</desc>
-	</item>
-	<item id="24" inventory="1">
-		<name>Lampe</name>
-		<desc>Eine billige Taschenlampe aus dem Yps.</desc>
-	</item>
-	<item id="25" inventory="1">
-		<name>Spaten</name>
-		<desc>Ein alter Spaten. Rostig aber noch stabil.</desc>
-	</item>
-	<item id="26" inventory="0">
-		<name>Aushang</name>
-		<desc>Es ist ein Bild von einer Halskette zu sehen, darunter steht Näheres.</desc>
-	</item>
-	<item id="27" inventory="0">
-		<name>Polizist</name>
-		<desc>Er sieht gelangweilt aus.</desc>
-	</item>
-	<item id="28" inventory="1">
-		<name>Pilz</name>
-		<desc>Ein Fliegenpilz, bekannt für seine psychedelische Wirkung.</desc>
-	</item>
-	<item id="29" inventory="0">
-		<name>Taube</name>
-		<desc>Die Taube scheint den Brunnen sehr zu mögen, sie sitzt immer an derselben Stelle. Sie hat etwas im Schnabel.</desc>
-	</item>
-	<item id="30" inventory="1">
-		<name>Los</name>
-		<desc>Ein Los für die 'Spiel-Mit-Lotterie' mit der Nummer 00128.</desc>
-	</item>
-	<item id="31" inventory="0">
-		<name>Brunnen</name>
-		<desc>Ein runder Brunnen mit einem Wasserspeier in der Mitte, momentan aber außer Betrieb.</desc>
-	</item> 
-	<item id="32" inventory="1">
-		<name>Pilzbrot</name>
-		<desc>Zusätzlich zur Salami ist jetzt noch Fliegenpilz drauf.</desc>
-	</item>
-	<item id="33" inventory="0">
-		<name>Kellertuer</name>
-		<desc>Die Tuer zum Rumpelkeller der Polizei. Die hat keine Klinke, ist aber nur angelehnt.</desc>
-	</item>
-	<item id="34" inventory="1">
-		<name>Sirene</name>
-		<desc>Eine alte Polizeisirene mit Handkurbel.</desc>
-	</item>
-	<item id="35" inventory="1">
-		<name>Sirenchen</name>
-		<desc>Eine gedämpfte Polizeisirene.</desc>
-	</item>
-	<item id="36" inventory="0">
-		<name>Verkaeufer</name>
-		<desc>?</desc>
-	</item>
-	<item id="37" inventory="0">
-		<name>Computer</name>
-		<desc>?</desc>
-	</item>
-	<item id="38" inventory="1">
-		<name>Geld</name>
-		<desc>Das sind die 1000 DM, die du als Belohnung für die Halskette bekommen hast.</desc>
-	</item>
-	<item id="39" inventory="1">
-		<name>Restgeld</name>
-		<desc>Das sind 200 DM, die du von Wobist als Wechselgeld bekommen hast.</desc>
-	</item>
-	<item id="40" inventory="1">
-		<name>C64</name>
-		<desc>Dein eigener C64! Mit Datasette und einem Textadventure gratis dazu. Die Zukunft kann kommen!</desc>
-	</item>
-	<item id="41" inventory="1">
-		<name>Karte</name>
-		<desc>Eine handgezeichnete Karte. Sie zeigt eine Art Kreis inmitten von Bäumen und an einer Stelle im Kreis ist ein Kreuz. Ein Schatzkarte?</desc>
-	</item>
-	<item id="42" inventory="0">
-		<name>Mann</name>
-		<desc>?</desc>
-	</item>
-	<item id="43" inventory="0">
-		<name>Arbeiter</name>
-		<desc>?</desc>
-	</item>
-	<item id="44" inventory="0">
-		<name>Hund</name>
-		<desc>Vermutlich ein Pudel, aber ein sehr wilder. Wenn man ihn nur beruhigen...oder betäuben...könnte.</desc>
-	</item>
-	<item id="45" inventory="1">
-		<name>Maske</name>
-		<desc>Eine Magnum-Maske. Das ist dieser Privatdetektiv aus der neuen Fernsehserie im Ersten. Wieso gibt es den als Maske?</desc>
-	</item>
-	<item id="46" inventory="1">
-		<name>Holzkiste</name>
-		<desc>Eine kleine Holzkiste</desc>
-	</item>
-	<item id="47" inventory="1">
-		<name>Halskette</name>
-		<desc>Eine hübsche Halskette, die sehr wertvoll aussieht.</desc>
-	</item>
-	<item id="48" inventory="0">
-		<name>Regal</name>
-		<desc>Auf dem Regal stehen jede Menge 8-Bit-Rechner, vom C128 über den C64 bis hin zu C16 und VC20. Auf den unteren Böden liegen auch noch einige Einzelteile.</desc>
-	</item>
-	<item id="49" inventory="0">
-		<name>Spiegel</name>
-		<desc>Ein einfacher Wandspiegel.</desc>
-	</item>
-	
-	<operation command="8" item="45" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Du setzt die Maske auf, aber niemand bemerkt es.</operation>
-	<operation command="8" item="34" unique="1" remove_inv="" remove_room="" add_room="" add_inv="35" unlock="" with_item="9" remove_both="1" portal_to="">Du stopfst das Handtuch in die Sirene. Das sollte sie leiser machen, nun ist es nur noch ein 'Sirenchen'.</operation>
-	<operation command="8" item="34" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Nein, das wäre viel zu laut! Vielleicht kannst du sie irgendwie dämpfen?</operation>
-	<operation command="8" item="35" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Uhhhuuiii...uhhhuuiii...es klingt jetzt, als wäre die Sirene etwas weiter entfernt.</operation>
-	<operation command="8" item="25" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Hier gibt es nichts zu graben.</operation>
-	<operation command="8" item="24" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Es ist hell genug.</operation>
-	<operation command="8" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Wo willst du den Zugstab denn einhaken?</operation>
-	<operation command="7" item="19" unique="" remove_inv="19" remove_room="" add_room="" add_inv="20" unlock="" with_item="" remove_both="" portal_to="">Im Brief ist dein Ferienpass von der Stadt. Gerade noch rechtzeitig zum Ferienbeginn.</operation>
-	<operation command="14" item="19" unique="" remove_inv="19" remove_room="" add_room="" add_inv="20" unlock="" with_item="" remove_both="" portal_to="">Im Brief ist dein Ferienpass von der Stadt. Gerade noch rechtzeitig zum Ferienbeginn.</operation>
-	<operation command="8" item="10" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Du hebst ihn lieber noch auf...für schlechte Zeiten.</operation>
-	<operation command="8" item="16" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Du bist nicht hungrig.</operation>
-	<operation command="8" item="32" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Nee, besser nicht...</operation>
-	<operation command="14" item="41" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Ein X markiert die Stelle!</operation>
-	<operation command="8" item="28" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Lieber nicht...</operation>
-	<operation command="14" item="5" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Du blätterst die 64er durch. Ein C64 mit Datasette kostet astronomische 800 DM. Woher nehmen?</operation>
-	<operation command="8" item="16" unique="1" remove_inv="" remove_room="" add_room="" add_inv="32" unlock="" with_item="28" remove_both="1" portal_to="">Du zerbröselst den Pilz und legst die Teile unter die Salami auf das Brot. Guten Hunger!</operation>
-	<operation command="7" item="46" unique="1" remove_inv="" remove_room="" add_room="" add_inv="47" unlock="" with_item="" remove_both="" portal_to="">In der Kiste findest du, eingewickelt in Plastikfolie, eine hübsche Halskette.</operation>
-	<operation command="8" item="47" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock="" with_item="" remove_both="" portal_to="">Nicht dein Stil...</operation>
+    <item id="0" inventory="0">
+        <name>Bett</name>
+        <desc>Einfach ein Bett</desc>
+    </item>
+    <item id="1" inventory="1">
+        <name>C64</name>
+        <desc>Dein C64. Treuer, alter Kumpel, der aber nur noch ein schwarzes Bild zeigt.</desc>
+    </item>
+    <item id="2" inventory="0">
+        <name>Fernseher</name>
+        <desc>Ein Farbfernseher mit Antenne und Scart. Neueste Technik!</desc>
+    </item>
+    <item id="3" inventory="0">
+        <name>Tisch</name>
+        <desc>Einfach ein Tisch</desc>
+    </item>
+    <item id="4" inventory="1">
+        <name>Wecker</name>
+        <desc>Dein neuer Digitalwecker mit Kalender. Er zeigt den 3.5.1988.</desc>
+    </item>
+    <item id="5" inventory="1">
+        <name>Zeitschrift</name>
+        <desc>Eine Ausgabe von Playjoy. Die hast du NUR wegen der Artikel!</desc>
+    </item>
+    <item id="6" inventory="0">
+        <name>Fenster</name>
+        <desc>Ein Fenster</desc>
+    </item>
+    <item id="7" inventory="0">
+        <name>Spielplan</name>
+        <desc>Der Spielplan der EM 1988</desc>
+    </item>
+    <item id="8" inventory="0">
+        <name>Kühlschrank</name>
+        <desc>Der Kühlschrank ist der beste Freund des Menschen.</desc>
+    </item>
+    <item id="9" inventory="1">
+        <name>Apfel</name>
+        <desc>Ein knackiger Apfel</desc>
+    </item>
+    <item id="10" inventory="1">
+        <name>Geld</name>
+        <desc>5 DM. Eine milde Gabe deiner Mutter.</desc>
+    </item>
+    <item id="11" inventory="0">
+        <name>Sofa</name>
+        <desc>Ein kleines, gemütliches Sofa</desc>
+    </item>
+    <item id="12" inventory="0">
+        <name>Toilette</name>
+        <desc>Sie ist braun!</desc>
+    </item>
+    <item id="13" inventory="1">
+        <name>Happy</name>
+        <desc>Die Happy-Computer 4/88</desc>
+    </item>
+    <item id="14" inventory="0">
+        <name>Klingel</name>
+        <desc>Eine Klingel</desc>
+    </item>
+    <item id="15" inventory="0">
+        <name>Tür</name>
+        <desc>Eine unscheinbare Tür</desc>
+    </item>
+    <item id="16" inventory="0">
+        <name>Vladi</name>
+        <desc>Vladi ist dein Nachbar.</desc>
+    </item>
+    <item id="17" inventory="1">
+        <name>Tischbein</name>
+        <desc>So Tischbein von einem alten Eichentisch. Solides Holz!</desc>
+    </item>
+    <item id="18" inventory="0">
+        <name>Mädchen</name>
+        <desc>Groß, mit blonden Zöpfen. Von der Kleidung her so alt wie du, aber irgendwas passt nicht...</desc>
+    </item>
+    <item id="19" inventory="0">
+        <name>Tanja</name>
+        <desc>Sie ist ziemlich groß für 15 und ihr Gesicht sieht seltsam...alt aus.</desc>
+    </item>
+    <item id="20" inventory="0">
+        <name>Taube</name>
+        <desc>Sie ist fett und sitzt auf dem Vordach des Eingangs.</desc>
+    </item>
+
+    <operation command="8" item="5" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Das wäre...unpassend!
+    </operation>
+    <operation command="8" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Sinnlos. Er ist kaputt!
+    </operation>
+    <operation command="14" item="5" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Dafür ist später noch Zeit!
+    </operation>
+    <operation command="8" item="9" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Nein, du hebst ihn besser für später auf!
+    </operation>
+    <operation command="14" item="13" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Dieses Interceptor auf dem Amiga sieht fantastisch aus. Aber
+        vorher nehmen...?
+    </operation>
+    <operation command="15" item="18" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item="1"
+               remove_both="" portal_to="">Er mag kaputt sein, aber doch nicht wertlos!
+    </operation>
+    <operation command="15" item="18" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item="5"
+               remove_both="" portal_to="">Super Idee. Das macht Eindruck!
+    </operation>
+    <operation command="15" item="18" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item="10"
+               remove_both="" portal_to="">Ähh...wozu genau?
+    </operation>
+    <operation command="9" item="18" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Bitte was?
+    </operation>
+    <operation command="9" item="19" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Sie hat dir nichts getan!
+    </operation>
+    <operation command="7" item="15" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Die Tür ist fest verschlossen!
+        sich!
+    </operation>
+    <operation command="9" item="15" unique="" remove_inv=""
+               remove_room="" add_room="" add_inv="" unlock="" with_item=""
+               remove_both="" portal_to="">Was soll diese sinnlose Gewalt gegen Türen?
+    </operation>
 </items>

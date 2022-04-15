@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<room id="2" name="Badezimmer">
-	<desc>Du bist im Badezimmer. Der gesamte Raum ist in modischem Grün gehalten. In einem Regal liegt ein Stapel aprilfrisch weichgespülter Handtücher.
-	</desc>
-	<exits>
-		<exit room="flur">W</exit>
-	</exits>
-	<items>
-		<item>8</item>
-		<item>9</item>
-	</items>
-	<operations>
-		<operation command="8" item="8" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Abblende...es plätschert...es rauscht...Aufblende
-		</operation>
-	</operations>
+<room id="5" name="Badezimmer">
+    <desc>Du bist im Badezimmer. Der gesamte Raum ist in modischem Braun gehalten. Neben dem Klo liegt ein Stapel mit Klolektüre.|Die Tür zum Wohnzimmer ist im Norden.
+    </desc>
+    <exits>
+        <exit room="wohnzimmer">N</exit>
+    </exits>
+    <items>
+        <item>12</item>
+        <item>13</item>
+    </items>
+    <operations>
+        <operation command="8" item="12" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Abblende...es plätschert...es rauscht...Aufblende
+        </operation>
+    </operations>
 </room>

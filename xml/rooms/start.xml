@@ -1,61 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="0" name="Dein Zimmer">
-	<desc>Du bist in deinem Zimmer. Die Sommersonne scheint herein und
-		erzeugt ein interessantes Lichtmuster auf deinem mit Aufklebern
-		übersäten Schrank.|Auf der Fensterbank trocknet eine Grünlilie vor
-		sich
-		hin und gibt ein trauriges Bild ab.|Der kleine Tisch in der Ecke
-		wird fast vollständig von einem alten Fernseher belegt.
-	</desc>
-	<exits>
-		<exit room="flur">N</exit>
-	</exits>
-	<items>
-		<item>0</item>
-		<item>1</item>
-		<item>2</item>
-		<item>3</item>
+    <desc>Du bist in deinem Zimmer. Die frühe Nachmittagssonne scheint durch das Fenster hinein und wirft ihre Strahlen
+        auf deinen Schreibtisch.|
+		Der Schreibtisch ist auch dein Computertisch. Hier haben du und dein C64 schon viele Abenteuer in pixeligen Welten bestanden.
+        Leider ist der C64 kaputt und zeigt nur noch ein schwarzes Bild. Und Geld für eine Reparatur habt ihr auch nicht.
+    </desc>
+    <exits>
+        <exit room="flur">O</exit>
+    </exits>
+    <items>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
 		<item>5</item>
-		<item>17</item>
-	</items>
-	<operations>
-		<operation command="7" item="0" unique="1" remove_inv=""
-			remove_room="" add_room="4" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Als du den Schrank öffnest, fällt ein ZX81
-			heraus, der
-			sich auf dem Gerümpel nicht mehr halten konnte.
-		</operation>
-		<operation command="1" item="0" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Dein Schrank ist voller Gerümpel. Jemand
-			müsste ihn mal aufräumen. Nur wer?
-		</operation>
-		<operation command="8" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Du schaltest den Fernseher ein, aber es
-			läuft nichts
-			Interessantes auf irgendeinem der drei Programme.
-		</operation>
-		<operation command="8" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item="4"
-			remove_both="" portal_to="">Du verbindest den Z81 mit dem Fernseher. Er
-			funktioniert,
-			aber was will man mit 1 KB schon anfangen? Frustriert
-			kabelst du ihn
-			wieder ab.
-		</operation>
-		<operation command="8" item="40" unique="1" remove_inv="40"
-			remove_room="" add_room="" add_inv="" unlock="" with_item="3"
-			remove_both="" portal_to="3">Du verbindest den C64 samt Zubehör mit dem Fernseher. Ein Moment, so grandios wie die Mondlandung! 'READY.'...du laedst das Spiel, das dabei war...
-		</operation>
-		<operation command="8" item="17" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Du bist nicht müde.
-		</operation>
-		<operation command="9" item="3" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Du haust gegen den Fernseher. Warum auch
-			immer!
-		</operation>
-	</operations>
+        <item>6</item>
+    </items>
+    <operations>
+        <operation command="8" item="2" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du schaltest den Fernseher ein, aber es
+            läuft nichts
+            Interessantes auf irgendeinem der drei Programme.
+        </operation>
+        <operation command="9" item="2" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du haust gegen den Fernseher. Warum auch
+            immer!
+        </operation>
+        <operation command="8" item="0" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Es ist Nachmittag, du bist nicht müde.
+        </operation>
+        <operation command="7" item="6" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Du öffnest das Fenster und schaust hinaus. Die Aussicht aus dem 5. Stock ist nicht schlecht, sofern man auf Plattenbauten steht. Aber immerhin ist es heute sonnig. Du schließt das Fenster wieder.
+        </operation>
+    </operations>
 </room>

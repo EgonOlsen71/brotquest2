@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<room id="1" name="Flur im Obergeschoss">
-	<desc>Du stehst im Flur im 1.Stock. Eine Treppe führt nach unten ins
-		Erdgeschoss. Ansonsten sind hier noch das Bad und das ehemalige Zimmer deiner
-		großen Schwester.
-	</desc>
-	<exits>
-		<exit room="start">S</exit>
-		<exit room="silvia">W</exit>
-		<exit room="erd">R</exit>
-		<exit room="bad">O</exit>
-		<exit room="dach" locked="1">H</exit>
-	</exits>
-	<items>
-		<item>6</item>
-	</items>
-	<operations>
-		<operation command="8" item="6" unique="1" remove_inv=""
-			remove_room="6" add_room="" add_inv="" unlock="h" with_item="7"
-			remove_both="" portal_to="">Du hakst die Stange in die Öse an der Klappe
-			ein und ziehst. Die Klappe öffnet sich, eine Leiter rumpelt herunter
-			und der Weg hoch ist frei.
-		</operation>
-		<operation command="12" item="6" unique="" remove_inv=""
-			remove_room="" add_room="" add_inv="" unlock="" with_item=""
-			remove_both="" portal_to="">Bei genauerem Hinsehen entdeckst du eine
-			kleine Öse, die aus einem Loch in der Klappe herausguckt.
-		</operation>
-	</operations>
+<room id="1" name="Wohnungsflur">
+    <desc>Du stehst im Flur euer kleinen Wohnung. Du bist alleine hier, deine Mutter ist nicht zu Hause. Sie arbeitet immer lange, um wenigstens ein bisschen Geld
+        für euch beide zu verdienen.|
+        Der Flur hat keine Fenster und nur eine einzelne Glühbirne versucht, etwas Licht in die Angelegenheit zu bringen. An der Wand hängt der Spielplan der diesjährigen EM.
+        Deine Mutter hat ihn dich aufhängen lassen, damit die Wand nicht ganz so kahl ist.|Im Westen ist dein Zimmer, im Osten befindet sich die Küche. Hinter dir ist die Wohnungstür.
+    </desc>
+    <exits>
+        <exit room="start">W</exit>
+        <exit room="kueche">O</exit>
+        <exit room="treppenhaus">N</exit>
+    </exits>
+    <items>
+        <item>7</item>
+    </items>
+    <operations>
+        <operation command="14" item="7" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+                   with_item="" remove_both="" portal_to="">Die EM startet in gut einem Monat. Du hast kein besonderes Interesse an Fussball, aber es ist eine nette Abwechslung.
+            Solange nicht die Holländer gewinnen, ist alles gut!
+        </operation>
+    </operations>
 </room>
