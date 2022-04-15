@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<commands>
+	<command id="0" verb="machen">gehen,nach</command>
+	<command id="1" verb="anschauen">sieh,schauen,sehen</command>
+	<command id="2" verb="nehmen">nimm,nehmen</command>
+	<command id="3" verb="anzeigen">inventar,dabei,besitzen,haben</command>
+	<command id="4" verb="beenden">exit,quit,ende</command>
+	<command id="5" verb="anzeigen">info,system</command>
+	<command id="6" verb="ablegen">legen,ablegen,verlieren</command>
+	<command id="7" verb="oeffnen">oeffnen</command>
+	<command id="8" verb="so_benutzen">benutzen,nutzen,verwenden</command>
+	<command id="9" verb="schlagen">schlagen,treten,tritt,zerstoeren</command>
+	<command id="10" verb="laden">load,laden</command>
+	<command id="11" verb="speichern">save,speichern,sichern</command>
+	<command id="12" verb="untersuchen">untersuchen,pruefen</command>
+	<command id="13" verb="befragen">sprich,sprechen,fragen,reden</command>
+	<command id="14" verb="lesen">lies,lesen</command>
+	<command id="15" verb="geben">gib,geben</command>
+	<command id="16" verb="machen">hilfe,help,befehle,woerter</command>
+</commands>

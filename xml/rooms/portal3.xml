@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="31" name="Dachzimmer">
+	<desc>
+		Du bist in einem Raum unter dem Dach. Die Sommersonne scheint
+		herein und erzeugt ein interessantes Lichtmuster auf einem mit
+		Computern vollgestellten Regal.|
+		Davon abgesehen ist der Raum
+		merkwürdig leer und auch durch das Dachfenster sieht man nur
+		den leeren, blauen Himmel.|Hier sind zwei Türen, eine nach Norden und eine nach Osten.
+	</desc>
+	<items>
+		<item>48</item>
+	</items>
+	<exits>
+		<exit room="flur2">N</exit>
+		<exit room="grue">O</exit>
+	</exits>
+	<operations>
+		<operation command="12" item="48" unique="" remove_inv=""
+			remove_room="" add_room="" add_inv="" unlock="" with_item=""
+			remove_both="" portal_to="">Das Regal kann die Last der ganzen Geräte
+			fasst nicht mehr tragen. Die Böden biegen sich teilweise schon
+			bedenklich durch.
+		</operation>
+	</operations>
+</room>
