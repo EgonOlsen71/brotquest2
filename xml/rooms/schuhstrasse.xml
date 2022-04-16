@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="30" name="Schuhstraße">
+    <desc>Die Schuhstraße ist eine Nebenstraße der Kanzleistraße und bis vor ein paar Wochen endete sie in einer Wiese. Jetzt endet sie in einer Baustelle.
+        An der einen Seite der Straße stehen einige nette, alte Fachwerkhäuser und auf der anderen einige nette, neue Baufahrzeuge. Es kann im Moment nicht sehr angenehm sein, hier zu wohnen.|In Norden liegt die Baustelle, im Südwesten die Kanzleistraße.
+    </desc>
+    <exits>
+        <exit room="baustelle">N</exit>
+        <exit room="kanzlei2">SW</exit>
+    </exits>
+</room>

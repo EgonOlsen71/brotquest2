@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="32" name="Baustelle">
+    <desc>
+        Hier wird anscheinend zumindest etwas mehr gearbeitet als auf dem Rest des Geländes. Zahlreiche Bretter liegen herum und ein Bauwagen steht etwas weiter hinten.|Im Süden ist die Schuhstrasse und im Südwesten geht es auf den Rest vom Baugelände.
+    </desc>
+    <exits>
+        <exit room="schuhstrasse">S</exit>
+        <exit room="baugelaende">SW</exit>
+    </exits>
+    <items>
+        <item>47</item>
+    </items>
+    <operations>
+        <operation command="12" item="47" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Die Bauarbeiter scheinen die Aufgabe zu haben, Nägel aus Brettern zu ziehen. Einer zieht, einer hält.
+            Wenn er nicht gerade zu einer jungen Frau hinüberglotzt, in nebenan in der Schuhstraße Wäsche aufhängt.
+        </operation>
+        <operation command="12" item="48" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Manfred ist alleine draußen, sein Kumpel hockt im Bauwagen und macht "Pause". Er versucht, die Nägel alleine zu entfernen, aber das klappt nicht gut.
+        </operation>
+        <operation command="13" item="48" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">"Tolle Idee von dir! Jetzt hockt der Idiot im Bauwagen und macht sonstwas! Ich würde mich besaufen wollen, aber ich hab ja nix!".
+            Er guckt dich kurz an, dann wieder auf seine Arbeit, "Scheiß Tag!"
+        </operation>
+        <operation command="13" item="47" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">"Machsten du hier? Is 'ne Baustelle, ne? Wennde 'ne Alte wärst, wie die da", er zeigt zur Straße,
+            "das wär was anderes, wa Manfred? Das wär was!". Manfred rutscht ab. "Halten, du Spanner! Ich tu mich verletzen hier!"
+        </operation>
+        <operation command="15" item="47" unique="1" remove_inv="5"
+                   remove_room="47" add_room="48" add_inv="" unlock="" with_item="5"
+                   remove_both="" portal_to="">Du gibts ihnen dein Playjoy-Magazin. "Manfred, guck ma! Da sind Weiber drin! Mit Bild!".
+            Er blättert aufgeregt. "Weißte, ich mach Pause jetze!" Er lässt das Brett fallen und verschwindet im Bauwagen. Manfred schaut ihm nach.
+        </operation>
+        <operation command="15" item="48" unique="1" remove_inv="32"
+                   remove_room="48" add_room="43" add_inv="" unlock="" with_item="32"
+                   remove_both="" portal_to="">Du gibst Manfred das Bier. "Ej, Bier! Klasse, ich kann hier allein eh nix machen. Ich gehe in...hinter den Wagen und mache erstmal Pause!
+            Prost!". Manfred lässt sein Werkzeug fallen und verschwindet hinter dem Bauwagen.
+        </operation>
+        <operation command="15" item="48" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item="31"
+                   remove_both="" portal_to="">"Bist du blöde? Ich will Bier, keine leere Pulle! Du bist ja genauso dämlich wie mein Kollege!"
+        </operation>
+        <operation command="9" item="47" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Kampf scheitert an der Frage, wenn du zuerst töten willst.
+        </operation>
+
+    </operations>
+</room>

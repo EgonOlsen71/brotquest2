@@ -25,11 +25,11 @@
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Du schaltest den Fernseher ein, aber es
             läuft nichts
-            Interessantes auf irgendeinem der drei Programme.
+            Interessantes auf irgendeinem der fünf Programme.
         </operation>
         <operation command="8" item="11" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
-                   remove_both="" portal_to="">Du setzt dich auf der Sofa. Es ist klein, aber sehr bequem. Ein wenig schaust du den Staubflusen zu,
+                   remove_both="" portal_to="">Du setzt dich auf das Sofa. Es ist klein, aber sehr bequem. Ein wenig schaust du den Staubflusen zu,
             die dein Hinsetzen aufgewirbelt hat und die nun in der Sonne tanzen. Dann stehst du wieder auf.
         </operation>
     </operations>

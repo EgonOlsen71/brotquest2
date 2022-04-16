@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="23" name="Brache">
+    <desc>Diese Brache wird von kleinen Birken und zahlreichen Büschen besiedelt, die jetzt im Frühjahr um die Wette blühen, um möglichst viele Insekten für sich zu gewinnen.
+        Wenn man zwischen den Birken steht, hat man gar nicht mehr das Gefühl, mitten in der Stadt zu sein. Abgesehen vom nahen Verkehrslärm natürlich. Irgendwo in den Büschen
+        wirbt eine Amsel zwitschernd um eine Partnerin.|Im Norden und im Nordosten liegt die Kanzleistraße. Der Pfad geht weiter über die Brache nach Südosten bis vor ein Gartentor.
+    </desc>
+    <exits>
+        <exit room="kanzlei2">N</exit>
+        <exit room="kanzlei1">NW</exit>
+        <exit room="gartentor">SO</exit>
+    </exits>
+</room>

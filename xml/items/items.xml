@@ -18,10 +18,10 @@
     </item>
     <item id="4" inventory="1">
         <name>Wecker</name>
-        <desc>Dein neuer Digitalwecker mit Kalender. Er zeigt den 3.5.1988.</desc>
+        <desc>Dein neuer Digitalwecker mit Kalender von RASIO. Er zeigt den 3.5.1988.</desc>
     </item>
     <item id="5" inventory="1">
-        <name>Zeitschrift</name>
+        <name>Magazin</name>
         <desc>Eine Ausgabe von Playjoy. Die hast du NUR wegen der Artikel!</desc>
     </item>
     <item id="6" inventory="0">
@@ -37,8 +37,8 @@
         <desc>Der Kühlschrank ist der beste Freund des Menschen.</desc>
     </item>
     <item id="9" inventory="1">
-        <name>Apfel</name>
-        <desc>Ein knackiger Apfel</desc>
+        <name>Cola</name>
+        <desc>Eine Dose Liver-Cola von LALDI. Nicht eben die beste Marke.</desc>
     </item>
     <item id="10" inventory="1">
         <name>Geld</name>
@@ -84,9 +84,145 @@
         <name>Taube</name>
         <desc>Sie ist fett und sitzt auf dem Vordach des Eingangs.</desc>
     </item>
+    <item id="21" inventory="0">
+        <name>Automat</name>
+        <desc>Ein Zigarettenautomat. Freiheit und Abenteuer in Pappschachteln!</desc>
+    </item>
+    <item id="22" inventory="1">
+        <name>Zigaretten</name>
+        <desc>Eine Schachtel Toth-Händle. Harter Stoff!</desc>
+    </item>
+    <item id="23" inventory="0">
+        <name>Rene</name>
+        <desc>Rene ist der ortsansässige Punk. Er ist nicht sooo schlimm, aber sein Hund nervt.</desc>
+    </item>
+    <item id="24" inventory="0">
+        <name>Benz</name>
+        <desc>S-Klasse, 126er, silber-metallic. Keine weitere Typenangabe.</desc>
+    </item>
+    <item id="25" inventory="1">
+        <name>Vogelfutter</name>
+        <desc>Etwas alt, aber das macht vermutlich nichts.</desc>
+    </item>
+    <item id="26" inventory="0">
+        <name>Tauben</name>
+        <desc>Sie sitzen in den Bäumen und machen ansonsten nicht viel.</desc>
+    </item>
+    <item id="27" inventory="0">
+        <name>Wirt</name>
+        <desc>Ein grimmig dreinblickender Geselle, nicht weniger fett als sein Essen.</desc>
+    </item>
+    <item id="28" inventory="0">
+        <name>Kellertür</name>
+        <desc>Eine schwere, verschlossene Eichentür, die unten ein paar Macken hat.</desc>
+    </item>
+    <item id="29" inventory="1">
+        <name>Ratte</name>
+        <desc>Eine zahme weiße Ratte.</desc>
+    </item>
+    <item id="30" inventory="0">
+        <name>Zapfhahn</name>
+        <desc>Da kommt Bier raus.</desc>
+    </item>
+    <item id="31" inventory="1">
+        <name>Flasche</name>
+        <desc>Eine leere Bierflasche, Marke Tadelskrone!</desc>
+    </item>
+    <item id="32" inventory="1">
+        <name>Bier</name>
+        <desc>Ehemals Tadelskrone, jetzt gefüllt mit Bier vom Ochsen.</desc>
+    </item>
+    <item id="33" inventory="0">
+        <name>Computer</name>
+        <desc>Diverse (Heim-)Computer</desc>
+    </item>
+    <item id="34" inventory="0">
+        <name>Verkäufer</name>
+        <desc>Ein typischer Nerd, aber älter als du. Auch cooler!</desc>
+    </item>
+    <item id="35" inventory="1">
+        <name>Schrott</name>
+        <desc>Ein Jutesack, gefüllt mit Schrott von WOBIST</desc>
+    </item>
+    <item id="36" inventory="1">
+        <name>Sack</name>
+        <desc>Ein leerer Sack</desc>
+    </item>
+    <item id="37" inventory="1">
+        <name>Falle</name>
+        <desc>Eine Lebendfalle für Ratten</desc>
+    </item>
+    <item id="38" inventory="0">
+        <name>Unrat</name>
+        <desc>Hauptsächlich alte, aufgeweichte Kartons</desc>
+    </item>
+    <item id="39" inventory="1">
+        <name>Zehner</name>
+        <desc>10 DM. Nicht mehr und nicht weniger!</desc>
+    </item>
+    <item id="40" inventory="0">
+        <name>Computerwoche</name>
+        <desc>Hinter Glas, aber ein bisschen was kann man lesen.</desc>
+    </item>
+    <item id="41" inventory="0">
+        <name>Gartentor</name>
+        <desc>Es ist völlig zugerostet.</desc>
+    </item>
+    <item id="42" inventory="0">
+        <name>Bretter</name>
+        <desc>Die Bretter sind vor den Schuppeneingang genagelt.</desc>
+    </item>
+    <item id="43" inventory="1">
+        <name>Zange</name>
+        <desc>Eine Kneifzange</desc>
+    </item>
+    <item id="44" inventory="0">
+        <name>Schrank</name>
+        <desc>Ein alter Schrank</desc>
+    </item>
+    <item id="45" inventory="0">
+        <name>Rocco</name>
+        <desc>Ein stadtbekannter Schläger</desc>
+    </item>
+    <item id="46" inventory="0">
+        <name>Container</name>
+        <desc>Ein großer Müllcontainer</desc>
+    </item>
+    <item id="47" inventory="0">
+        <name>Arbeiter</name>
+        <desc>Zwei Bauarbeiter, die aber nicht viel arbeiten</desc>
+    </item>
+    <item id="48" inventory="0">
+        <name>Manfred</name>
+        <desc>Einer der Bauarbeiter</desc>
+    </item>
+    <item id="49" inventory="1">
+        <name>Notiz</name>
+        <desc>Eine Notiz von Tanja...oder wer das auch war!</desc>
+    </item>
 
+    <operation command="12" item="37" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Eine Rattenfalle. Es scheint irgendetwas drin zu sein.
+    </operation>
+    <operation command="7" item="37" unique="" remove_inv="37" remove_room="" add_room="" add_inv="29" unlock=""
+               with_item="" remove_both="" portal_to="">Vorsichtig versuchst du, die Falle zu öffnen, aber zerbrichst du sie dabei. Zum Vorschein kommt...EINE RATTE!
+        Sie ist weiß und guckt dich aufmerksam an. Sie scheint zahm zu sein....ein Glück!
+    </operation>
+    <operation command="9" item="37" unique="" remove_inv="37" remove_room="" add_room="" add_inv="29" unlock=""
+               with_item="" remove_both="" portal_to="">Du ziehst und zerrst an der Falle herum und zerbrichst sie dabei. Zum Vorschein kommt...EINE RATTE!
+        Sie ist weiß und guckt dich aufmerksam an. Sie scheint zahm zu sein....Glück gehabt!
+    </operation>
+    <operation command="8" item="22" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Du bist Nichtraucher. Und Feuer hast du auch nicht!
+    </operation>
     <operation command="8" item="5" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Das wäre...unpassend!
+    </operation>
+    <operation command="8" item="4" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">*Piep* *Piep* *Piep*...wie erwartet!
+    </operation>
+    <operation command="8" item="32" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Irgendein versifftes Bier aus einer alten Flasche trinken? Nein, Danke!
     </operation>
     <operation command="8" item="1" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Sinnlos. Er ist kaputt!
@@ -95,7 +231,7 @@
                with_item="" remove_both="" portal_to="">Dafür ist später noch Zeit!
     </operation>
     <operation command="8" item="9" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Nein, du hebst ihn besser für später auf!
+               with_item="" remove_both="" portal_to="">Nein, du bist nicht durstig!
     </operation>
     <operation command="14" item="13" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Dieses Interceptor auf dem Amiga sieht fantastisch aus. Aber
@@ -124,10 +260,16 @@
     <operation command="7" item="15" unique="" remove_inv=""
                remove_room="" add_room="" add_inv="" unlock="" with_item=""
                remove_both="" portal_to="">Die Tür ist fest verschlossen!
-        sich!
     </operation>
     <operation command="9" item="15" unique="" remove_inv=""
                remove_room="" add_room="" add_inv="" unlock="" with_item=""
                remove_both="" portal_to="">Was soll diese sinnlose Gewalt gegen Türen?
+    </operation>
+    <operation command="12" item="49" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Die Notiz wurde auf hochwertigem Papier geschrieben
+    </operation>
+    <operation command="14" item="49" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Sie trägt das Logo der Anwaltskanzlei "von Piepenreuth". Vladis Name ist darauf notiert, aber kein Nachname. Daneben "Nummer 8? 10?".
+        Fett unterstrichen steht da "min. 2 Jahre!!". Vladi sollte das sehen...
     </operation>
 </items>

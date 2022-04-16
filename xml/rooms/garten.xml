@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="25" name="Garten">
+    <desc>
+        Der Garten ist völlig verwildert aber auch wunderschön. Überall blüht irgendwas und Insekten schwirren zwischen den Blüten hin und her.
+        Schade, dass auch hier irgendwann ein Kauf- oder Bürohaus gebaut werden wird. Die Stadt kann sich so viel unbebauten Platz in der Nähe des
+        Zentrums auf Dauer einfach nicht leisten. Aber in diesem Moment scheint die Zeit in diesem geheimen Garten stillzustehen.|Im Osten befindet sich der Eingang zum Garten,
+        im Westen ist ein alter Schuppen unter einem Haufen Efeu zu erkennen.
+    </desc>
+    <exits>
+        <exit room="gartentor">O</exit>
+        <exit room="schuppen" locked="1">W</exit>
+    </exits>
+    <items>
+        <item>42</item>
+    </items>
+    <operations>
+        <operation command="12" item="42" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Die Bretter sind vor den Eingang genagelt und versperren den Weg in den Schuppen.
+        </operation>
+        <operation command="7" item="42" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Man kann Bretter nicht oeffnen...
+        </operation>
+        <operation command="9" item="42" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du trittst gegen die Bretter. Sie wackeln aber sie weichen nicht!
+        </operation>
+        <operation command="8" item="42" unique="1" remove_inv=""
+                   remove_room="42" add_room="" add_inv="" unlock="w" with_item="43"
+                   remove_both="" portal_to="">Du ziehst mit der Zange die Nägel aus den Brettern. Eines nach dem anderen fällt zu Boden. Der Weg in den Schuppen ist frei.
+        </operation>
+    </operations>
+</room>

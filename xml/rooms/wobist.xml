@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="17" name="Wobist-Filiale">
+    <desc>WOBIST ist eine bundesweit agierende Computerhandelskette. Hier findet man alles, was das Herz begehrt. Amiga, Atari ST, C64...sogar
+        diese langweiligen PCs haben die hier. Man kann hier auch Computer zum Reparieren hinbringen.|Der Verkäufer hinterm Tresen studiert gelangweilt den aktuellen
+        Denkzettel, die Preisliste von WOBIST. Er wackelt dabei im Takt von "Okay" in Dauerschleife.|Im Süden ist der Marktplatz, im Nordosten scheint eine Art Hinterhof zu sein.
+    </desc>
+    <exits>
+        <exit room="marktplatz">S</exit>
+        <exit room="hinterhof" locked="1">NO</exit>
+    </exits>
+    <items>
+        <item>33</item>
+        <item>34</item>
+    </items>
+    <operations>
+        <operation command="8" item="33" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Verkäufer blickt kurz auf. "Nur angucken, nicht anfassen!", ruft er. Dann wendet er sich wieder dem Denkzettel zu.
+        </operation>
+        <operation command="9" item="34" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du ballst die Fäuste zum Kampf, öffnest sie wieder und fährst dir durchs Haar. Hat niemand gemerkt...
+        </operation>
+        <operation command="13" item="34" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">"Hi! Wir haben Atari ST im Angebot, 520 STM für 450,- falls du Interesse und Geld hast. Falls nicht, wir reparieren jetzt auch Computer. Neuer Service!"
+        </operation>
+        <operation command="15" item="34" unique="1" remove_inv="1"
+                   remove_room="" add_room="" add_inv="" unlock="no" with_item="1"
+                   remove_both="" portal_to="">"Kaputt? Tja, aber du siehst Pleite aus. Pass auf! Im Hof ist ein Sack Schrott. Bring den zum Container auf der Baustelle
+            und ich schaue mir das Gerät mal an, ok?" Du nickst und gibst ihm den C64. "Bring den Sack wieder mit!"
+        </operation>
+        <operation command="15" item="34" unique="1" remove_inv="36"
+                   remove_room="" add_room="" add_inv="39" unlock="no" with_item="36"
+                   remove_both="" portal_to="">"Oh, Danke! Was den C64 angeht, der ist im Eimer! Überspannung, alle Chips knusprig gebraten. Hier, ich gebe dir 'nen Zehner für den Schrott.
+            Damit bist du gut beraten!" Verdattert betrachtest du den Geldschein, den er dir gibt. Tja...
+        </operation>
+    </operations>
+</room>

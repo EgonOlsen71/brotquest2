@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="28" name="Park">
+    <desc>
+        Der Stadtpark ist nicht sehr groß, aber schön gelegen und sehr gepflegt. Um diese Jahreszeit ist er voller Tulpen, die die Wege säumen und in den verschiedensten Farben blühen.
+        Im hinteren Teil des Parks sitzen manchmal einige Obdachlose und spülen ihren Schmerz mit Billigbier runter, aber heute scheint hier nichts los zu sein.
+        Evtl. hat sich einfach niemand an Rocco vorbeigetraut und/oder wollte keine 10 DM "Eintritt" bezahlen?|Im Westen ist die Parkbrücke, im Norden liegt der hintere Teil des Parks.
+    </desc>
+    <exits>
+        <exit room="bruecke">W</exit>
+        <exit room="park2">N</exit>
+    </exits>
+</room>

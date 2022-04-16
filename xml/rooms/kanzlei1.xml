@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="20" name="Vordere Kanzleistraße">
+    <desc>Die Kanzleistraße ist eine Fußgängerzone und verläuft vom Marktplatz her in östlicher Richtung hinunter zum Park. Hier gibt es ein paar Geschäfte, aber nichts, was dich wirklich interessiert.
+        Ein Teil der Gebäude wurde kürzlich abgerissen, dort soll irgendein neues Kaufhaus entstehen.|Im Westen liegt der Marktplatz, die Kanzleistraße geht im Osten weiter. Im Norden sieht man eine kleinen Kiosk.
+        Im Südosten liegt ein unbebautes Grundstück voller Gestrüpp, durch das sich ein schmaler Trampelpfad schlängelt.
+    </desc>
+    <exits>
+        <exit room="marktplatz">W</exit>
+        <exit room="kanzlei2">O</exit>
+        <exit room="kiosk">N</exit>
+        <exit room="brache">SO</exit>
+    </exits>
+</room>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="18" name="Hinterhof">
+    <desc>Dies ist der Hinterhof von WOBIST. Hier steht eine Menge Gerümpel herum, irgendwelche Tiere verschwinden in den Ecken, als du in den Hof hinaustrittst.
+        Es ist recht kühl hier, die Sonne schafft es zu dieser Jahreszeit noch nicht über die Häuser, die den Hof umgeben.|Im Südwesten ist die WOBIST-Filiale, im Osten endet der Hof in einem spitzen Winkel.
+    </desc>
+    <exits>
+        <exit room="wobist">SW</exit>
+        <exit room="hofecke">O</exit>
+    </exits>
+    <items>
+        <item>35</item>
+    </items>
+</room>

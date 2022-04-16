@@ -13,9 +13,8 @@
         <item>8</item>
     </items>
     <operations>
-        <operation command="7" item="8" unique="" remove_inv="" remove_room="" add_room="" add_inv="9" unlock=""
-                   with_item="" remove_both="" portal_to="">Du öffnest den Kühlschrank auf der Suche nach Essbarem. Viel ist nicht drin, deine Mutter füllt ihn bestimmt nachher wieder auf.
-            Aber immerhin ist ein Apfel drin. Du nimmst ihn dir heraus und schließt den Kühlschrank wieder.
+        <operation command="7" item="8" unique="1" remove_inv="" remove_room="" add_room="" add_inv="9" unlock=""
+                   with_item="" remove_both="" portal_to="">Du öffnest den Kühlschrank. Viel ist nicht drin, aber immerhin eine gekühlte Cola. Du nimmst die Dose heraus und steckst sie ein.
         </operation>
         <operation command="9" item="8" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""

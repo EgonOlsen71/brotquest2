@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="10" name="Fussweg">
+<desc>Der Fußweg führt weiter durch die Wohnblocks hindurch, vorbei an Nummer 8,6...bis zur 2. Hier enden die Blocks und der Weg trifft auf die viel befahrene Hauptstraße,
+    die das Zentrum mit dem Ortsrand verbindet. Der Fußweg ins Zentrum ist doch einen kleinen Zaun von der Straße getrennt, auf der anderen Seite wächst Brombeergestrüpp.|Der Ortsausgang liegt im Norden, nach Süden geht es ins Zentrum. Im Nordosten liegt euer Hauseingang und im Osten der große Parkplatz.
+</desc>
+<exits>
+    <exit room="fussweg">NO</exit>
+    <exit room="parkplatz">O</exit>
+    <exit room="ortsausgang">N</exit>
+    <exit room="hauptstrasse">S</exit>
+</exits>
+</room>

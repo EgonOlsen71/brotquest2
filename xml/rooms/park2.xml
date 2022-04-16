@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="29" name="Hinterer Park">
+    <desc>
+        Der hintere Teil des Stadtparks ist nicht ganz so stark begangen wie der an der Brücke. Hier sind die Tulpenbeete auch nicht mehr ganz so gut gepflegt.
+        Dafür stehen an den Wegen riesige Kastanienbäume, deren frische Blätter schon reichlich Schatten auf die unter ihnen stehenden Bänke werfen. Im Herbst kann man hier
+        nicht sitzen, wenn man nicht ständig von oben mit Kastanien bombardiert werden will und im Sommer liegt hier manchmal recht viel Müll von den Obdachlosen herum.
+        Aber momentan scheint alles ruhig und friedlich zu sein. Irgendwo klopft ein Specht.|Der andere Teil des Parks liegt im Süden.
+    </desc>
+    <items>
+        <item>31</item>
+    </items>
+    <exits>
+        <exit room="park">S</exit>
+    </exits>
+</room>

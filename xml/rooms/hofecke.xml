@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="19" name="Hofecke">
+    <desc>In dieser hintersten Ecke von WOBISTs Hinterhof ist es seltsam feucht und es riecht modrig. Wäre das hier ein öffentlicher Ort,
+        wäre das hier ein öffentliches Klo. Aber auch ohne das ist es nicht sehr einladend hier. Im überall herumliegenden Unrat raschelt es.|Im Westen liegt der Hinterhof.
+    </desc>
+    <exits>
+        <exit room="hinterhof">W</exit>
+    </exits>
+    <items>
+        <item>38</item>
+    </items>
+    <operations>
+        <operation command="12" item="38" unique="1" remove_inv=""
+                   remove_room="" add_room="37" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du schiebst den Unrat vorsichtig mit dem Fuss zur Seite. Darunter kommt ein langes, schwarzes Rohr zum Vorschein. Eine Falle für die Ratten vermutlich.
+        </operation>
+    </operations>
+</room>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="31" name="Baugelände">
+    <desc>
+        Hier stand das Haus vom alten Burmeister, jetzt ist es eine große, platte und sandige Fläche. Wenn hier erstmal etwas Neues gebaut wird, dann kann man hier sicher nicht mehr so unbeschwert durchspazieren.
+        Aber momentan scheint das niemanden zu stören, eine echte Absperrung gibt es auch nicht.|Im Süden geht es zurück auf die Kanzleistraße, im Nordosten steht ein Bauwagen.
+    </desc>
+    <exits>
+        <exit room="kanzlei2">S</exit>
+        <exit room="baustelle">NO</exit>
+    </exits>
+    <items>
+        <item>46</item>
+    </items>
+    <operations>
+        <operation command="8" item="46" unique="1" remove_inv="35"
+                   remove_room="" add_room="" add_inv="36" unlock="" with_item="35"
+                   remove_both="" portal_to="">Du schüttest den WOBIST-Schrott in den Container. Hauptsächlich Verpackungen, Schaumstoff und so Zeugs. Du schüttelst den Sack gründlich aus und steckst ihn wieder ein.
+            Der Verkäufer wollte ihn wieder haben.
+        </operation>
+        <operation command="12" item="46" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">In dem Container befinden sich alle möglichen Arten von Schrott. Holz, Metal, Erde...zum Glück käme nie jemand auf die Idee, die getrennt wegzuwerfen.
+        </operation>
+        <operation command="7" item="46" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Container ist offen, er hat keinen Deckel.
+        </operation>
+        <operation command="9" item="46" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">*BONG*
+        </operation>
+    </operations>
+</room>

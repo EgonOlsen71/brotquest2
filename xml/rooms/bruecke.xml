@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="27" name="Parkbrücke">
+    <desc>
+        Hier beginnt der Stadtpark. Jetzt im Frühling ist er besonders schön, weil die Stadt überall Tulpen hat anpflanzen lassen.
+        Die Idylle wird allerdings manchmal dadurch getrübt, dass im Park auch gerne der Blume auf dem Bier anstatt der im Beet zugesprochen wird.
+        Die Holzbrücke in den Park überspannt den Fluß Haller, der sich hier zwischen Innenstadt und Park entlangschlängelt.
+        |Im Westen liegt die Kanzleistraße, im Osten kann man hinter der Brücke den Park sehen.
+    </desc>
+    <items>
+        <item>45</item>
+    </items>
+    <exits>
+        <exit room="kanzlei2">W</exit>
+        <exit room="park" locked="1">O</exit>
+    </exits>
+    <operations>
+        <operation command="12" item="45" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Rocco steht hier und blockiert die Brücke...wie ein...Brückentroll? Er ist in der Stadt berüchtigt, du hattest bisher aber noch nie Stress mit ihm.
+            Mal schauen, wie das heute so läuft...
+        </operation>
+        <operation command="13" item="45" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">"Ej, Arschgesicht!", Rocco grinst. "Ja, du! Noch'n anderes Arschgesicht hier?" Du verneinst.
+            "Hast Glück, bin gut drauf heute! Aber ich brauch 'nen Zehner für die Peepshow! Also gib Geld oder verzieh dich! Sonst Beule!"
+        </operation>
+        <operation command="15" item="45" unique="1" remove_inv="39"
+                   remove_room="45" add_room="" add_inv="" unlock="o" with_item="39"
+                   remove_both="" portal_to="">Du gibst Rocco den Zehner. "Astrein, Keule! Ich wusste doch, dass wir uns verstehen. Jetzt kann ich inne
+            Peepshow und du kannst hier im Park rumhängen. Fairer Tausch, sach ich ma!" Rocco verschwindet pfeifend in die Stadt.
+        </operation>
+        <operation command="9" item="45" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Da kannst du auch gleich mit Zementschuhen in die Haller springen!
+        </operation>
+    </operations>
+</room>

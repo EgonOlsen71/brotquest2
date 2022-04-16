@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="11" name="Ortsausgang">
+    <desc>Hier ist er Ort fast zu Ende. Ein paar Wohnblocks liegen zwar noch an der Straße, aber man kann in der Ferne schon das Ortsausgangsschild erkennen.
+        Weiter nach Norden zu gehen, ergibt wenig Sinn. Da kommt nichts Spannendes mehr...|
+        Hier hängt einer der Zigarettenautomaten, von denen es im Viertel bestimmt ein halbes Dutzend gibt.|Der einzig sinnvolle Weg von hier aus führt zurück nach Süden.
+    </desc>
+    <exits>
+        <exit room="fussweg2">S</exit>
+    </exits>
+    <items>
+        <item>21</item>
+    </items>
+    <operations>
+        <operation command="8" item="21" unique="1" remove_inv="10"
+                   remove_room="" add_room="" add_inv="22" unlock="" with_item="10"
+                   remove_both="" portal_to="">Du steckst das Geld in den Schlitz und drückst auf "Toth-Haendle". Der Automat rumpelt, spuckt eine Packung aus und verschluckt dein Wechselgeld. Super!
+        </operation>
+        <operation command="12" item="21" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Automat bietet verschiedene Marken feil. Du hast keine Ahnung, wo am meisten Freiheit oder Gute Laune drin ist, weil du gar nicht rauchst.
+        </operation>
+    </operations>
+</room>

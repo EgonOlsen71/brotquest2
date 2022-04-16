@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="21" name="Kiosk">
+    <desc>
+        Der kleine Kiosk hat geschlossen, vermutlich macht der Besitzer eine erweiterte Mittagspause. Hinter Plexiglas hängen diverse Zeitungen und Zeitschriften zur Ansicht aus.
+        Die meistens sind allerdings uninteressant. Ob Hans-Dietrich Genscher nun zur Investition in Südostasien auffordert oder nicht...egal!|Eine Computerwoche hängt auch aus, aber auch das ist mehr so ein Blatt
+        für Leute in Anzügen. Aber immerhin etwas mit Computern.|Im Süden liegt die Kanzleistraße.
+    </desc>
+    <exits>
+        <exit room="kanzlei1">S</exit>
+    </exits>
+    <items>
+        <item>40</item>
+    </items>
+    <operations>
+        <operation command="14" item="40" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Da ist ein Bericht über einen Anwalt...von Piepenreuth heißt er. Der jagt Raubkopierer, indem er sich als junges Mädchen ausgibt. Wie absurd!
+        </operation>
+    </operations>
+</room>

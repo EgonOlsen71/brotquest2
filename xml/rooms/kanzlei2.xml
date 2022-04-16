@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="22" name="Hintere Kanzleistraße">
+    <desc>Die Kanzleistraße ist eine Fußgängerzone und verläuft vom Marktplatz her in östlicher Richtung hinunter zum Park. In diesem Teil wird jetzt gebaut,
+        nachdem das Haus vom alten Burmeister nach seinem Tod abgerissen wurde. Der alte Burmeister war ein Fossil und stadtbekannt. Er weigerte sich bis zuletzt, sein Haus
+        für das Bauvorhaben zu verkaufen. Nachdem er wegen seiner Beine nicht mehr in den Garten konnte, hat er seine Tauben hier in der Stadt auf seinem Dachboden gezüchtet.
+        Das muss eine Sauerei gewesen sein.|Im Westen liegt die vordere Kanzleistraße, im Osten der Park. Im Nordosten beginnt die Schuhstraße und im Süden befindet sich eine alte Industriebrache. Im Norden wird gebaut!
+    </desc>
+    <exits>
+        <exit room="kanzlei1">W</exit>
+        <exit room="bruecke">O</exit>
+        <exit room="baugelaende">N</exit>
+        <exit room="schuhstrasse">NO</exit>
+        <exit room="brache">S</exit>
+    </exits>
+</room>

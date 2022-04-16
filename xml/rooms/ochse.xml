@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="15" name="Zum Ochsen">
+    <desc>"Zum Ochsen" ist die führende Kneipe am Markt. Sie ist auch die einzige. Wenn das Gesundheitsamt sie nicht gerade geschlossen hält, schenkt der Wirt hier
+        billiges Bier zu fettigem Essen aus. In der Fensterbank haben diverse Fliegen den Kampf um ihr Leben verloren,
+        einem halbtrockenen Farnkraut steht dieser Weg noch bevor. Die braun getönten Fenster tauchen den Gastraum in ein dämmeriges Licht. Außer dir sind
+        keine anderen Gäste hier.|Die Tür nach draußen ist im Norden, im Westen ist der Tresen zu sehen!
+    </desc>
+    <exits>
+        <exit room="marktplatz">N</exit>
+        <exit room="tresen" locked="1">W</exit>
+    </exits>
+    <items>
+        <item>27</item>
+        <item>28</item>
+    </items>
+    <operations>
+        <operation command="12" item="27" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Wirt sieht nicht so aus, als ob er viel Lust auf Gäste hätte. Oder zumindest auf dich nicht.
+        </operation>
+        <operation command="12" item="28" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Die Tür führt wohl in den Keller. Sie ist massiv und verschlossen, aber es sieht aus, als hätte unten einmal etwas an ihr genagt...Igitt!
+        </operation>
+        <operation command="7" item="28" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Da willst du nicht rein und außerdem würde der Wirt das nicht mögen.
+        </operation>
+        <operation command="9" item="27" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Lass mal gucken...16jähriges Hemd gegen 60jährigen Fettklopps...wie stehen wohl die Chancen?
+        </operation>
+        <operation command="9" item="28" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du willst gar nicht in diesen Keller! Lass die Tür einfach in Ruhe.
+        </operation>
+        <operation command="13" item="27" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">"Ich verkaufe nichts an Halbstarke wie dich. Gibt nur Ärger! Mach dich vom Acker, Junge!"
+        </operation>
+        <operation command="8" item="28" unique="1" remove_inv="29"
+                   remove_room="" add_room="" add_inv="" unlock="w" with_item="29"
+                   remove_both="" portal_to="">Du lässt die Ratte frei. Sie schnüffelt, fiept und rennt zur Kellertür! Als der Wirt sie erblickt, wird er panisch!
+            "Mistvieh!" Er rennt ihr hinterher in den Keller. Die Eichentür fällt hinter ihm zu!
+        </operation>
+    </operations>
+</room>

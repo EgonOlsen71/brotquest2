@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="14" name="Marktplatz">
+    <desc>Die Nachmittagssonne scheint friedlich auf den Marktplatz. Die mächtigen Lindenbäume in der Mitte des Platzes bekommen erste
+        Blätter und in ihren Zweigen sitzen die Tauben und schauen auf die paar Passanten hinab, die ab und zu über den Platz huschen.
+        Der Wind ist angenehm warm, trägt allerdings ab und zu den Geruch von altem Fett über den Platz.|Im Nordwesten ist die Hauptstraße,
+        im Süden der Gasthof "Zum Ochsen" und im Norden liegt die örtliche WOBIST-Filiale. Im Osten schließt sich die Kanzleistraße an.
+    </desc>
+    <exits>
+        <exit room="hauptstrasse">NW</exit>
+        <exit room="ochse">S</exit>
+        <exit room="wobist">N</exit>
+        <exit room="kanzlei1">O</exit>
+    </exits>
+    <items>
+        <item>26</item>
+    </items>
+    <operations>
+        <operation command="15" item="26" unique="1" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item="25"
+                   remove_both="" portal_to="">Du streust den Tauben etwas Futter hin, gelangweilt schauen sie dir zu. Diese Tauben haben offenbar keinen Hunger.
+        </operation>
+        <operation command="12" item="26" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Die Tauben sitzen träge in den Bäumen und lassen sich von der Sonne wärmen.
+            Vermutlich gibt es hier so viel für sie zu essen, dass sie keinen besonderen Antrieb zu irgendwas haben.
+        </operation>
+    </operations>
+</room>

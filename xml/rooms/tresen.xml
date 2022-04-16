@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="16" name="Hinter dem Tresen">
+    <desc>Du stehst hinter dem Tresen des "Ochsen". Im Keller hörst du den Wirt rumpeln und fluchen. Gläser und Flaschen bewahrt er anscheinend in einem abschließbaren Schrank auf.
+        Er traut wohl seinen Gästen nicht. Ansonsten verrichtet hier ein einsamer Zapfhahn seinen Dienst an der Leber.|Ein Schritt nach Osten und du stehst wieder im Gastraum.
+    </desc>
+    <exits>
+        <exit room="ochse">O</exit>
+    </exits>
+    <items>
+        <item>30</item>
+    </items>
+    <operations>
+        <operation command="8" item="30" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du ziehst am Hahn. Bier kommt raus und läuft direkt in das Metalgitter unter dem Hahn.
+        </operation>
+        <operation command="8" item="30" unique="1" remove_inv="31"
+                   remove_room="" add_room="" add_inv="32" unlock="" with_item="31"
+                   remove_both="" portal_to="">Du hältst die Flasche unter den Hahn und öffnest ihn. Bier läuft in die Flasche...und auch daneben...egal...
+        </operation>
+    </operations>
+
+</room>

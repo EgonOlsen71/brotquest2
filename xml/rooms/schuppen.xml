@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="26" name="Gartenschuppen">
+    <desc>
+       Im Schuppen herrscht ewige Dämmerung, nur wenig Licht dringt durch Efeu und Bretter hindurch und aufgewirbelter Staub tanzt in den paar Lichtstrahlen, die es hineingeschafft haben.
+        Der Schuppen hat ein kleines Fenster, das aber völlig vom Efeu überwuchert ist. Es ist erstaunlich trocken hier. An den Wänden hängen Kopien von alten Urkunden, die meisten von irgendwelchen
+        Brieftaubenwettbewerben. Die jüngsten immerhin nicht älter als 10 Jahre. Der Schuppen kann schon damals nicht mehr sehr gut in Schuss gewesen sein. In einer Ecke steht ein alter Schrank.|Der Garten liegt im Osten.
+    </desc>
+    <exits>
+        <exit room="garten">O</exit>
+    </exits>
+    <items>
+        <item>44</item>
+    </items>
+    <operations>
+        <operation command="12" item="44" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Ein alter Schrank. Als ihn niemand mehr in der Wohnung haben wollte, muss er wohl hier gelandet sein.
+        </operation>
+        <operation command="7" item="44" unique="1" remove_inv=""
+                   remove_room="" add_room="25" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du öffnest den Schrank. Er ist beinahe leer, aber es fällt eine noch ungeöffnete Packung mit Vogelfutter heraus. Mindestens haltbar bis 1981...egal, Vögel können nicht lesen!
+        </operation>
+        <operation command="9" item="44" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Schrank knarrt und wackelt. Sonst passiert nichts!
+        </operation>
+    </operations>
+</room>
