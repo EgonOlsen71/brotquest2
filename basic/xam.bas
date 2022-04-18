@@ -283,8 +283,8 @@
 50150 next ii,p
 50155 if t%<>-1 then if cv%(0)<>-1 then er=1:return
 50160 if t%<>-1 then cv%(0)=t%:t%=-1:goto 50230
-50170 for p=0 to ti%:if il$(p)=a$ then t%=p:p=256
-50180 next
+50170 gosub 50400
+50185 if t%=-1 then gosub 50300:gosub 50400
 50190 if t%=-1 then 50230
 50200 if cv%(1)=-1 then cv%(1)=t%:t%=-1
 50210 if cv%(2)=-1 then cv%(2)=t%:t%=-1
@@ -295,6 +295,14 @@
 50260 next
 50270 lo$="":i=cv%(1):if i<>-1 then tx$=it$(i):gosub 63100:lo$=tx$
 50280 return
+
+50300 rem handle a special case with item names (like 'arbeiter'n)
+50310 if (right$(a$,1)<>"n") then return
+50320 a$=left$(a$,len(a$)-1):return
+
+50400 rem find item in list
+50410 for p=0 to ti%:if il$(p)=a$ then t%=p:p=256
+50420 next:return
 
 50500 rem detect chained commands
 50505 gosub 50600
@@ -572,9 +580,8 @@
 60900 return
 
 61000 rem replace semicolon with komma
-61002 sx$="":li=1:for i=1 to len(tx$)
-61010 c$=mid$(tx$,i,1)
-61020 if c$<>";" then 61040
+61010 sx$="":li=1:for i=1 to len(tx$)
+61020 if mid$(tx$,i,1)<>";" then 61040
 61030 gosub 61100:sx$=sx$+",":li=i+1
 61040 next
 61050 gosub 61100
@@ -585,7 +592,7 @@
 
 61200 rem load items
 61205 print "Lade Gegenstaende...";
-61206 ii=0:j=0
+61206 ii=0:j%=0
 61220 sx$="items.def":gosub 45100
 61230 gosub 61700:ii=ii+1
 61250 id$="":for i=1 to len(a$)
@@ -597,17 +604,17 @@
 61302 tx$=it$(ii):gosub 63100:il$(ii)=tx$:print".";
 61305 gosub 61400
 61310 if st=64 then 61330
-61320 j=j+1:goto 61230
+61320 j%=j%+1:goto 61230
 61330 print"ok"
-61340 ti%=j:close 2:return
+61340 ti%=j%:close 2:return
 
 61400 rem read item description
 61405 t%=0:sd=ad:ad=ad+1
 61410 gosub 61700: if a$="***" then 61460
-61415 pp=len(a$):t%=t%+pp:if pp<40 then t%=t%+1
+61415 pp%=len(a$):t%=t%+pp%:if pp%<40 then t%=t%+1
 61420 tx$=a$:gosub 61000
-61430 for p=1 to pp:a$=mid$(tx$,p,1)
-61440 poke ad+p-1,asc(a$):next:p=p-1:if pp<40 then poke ad+p,13:p=p+1
+61430 for p=1 to pp%:a$=mid$(tx$,p,1)
+61440 poke ad+p-1,asc(a$):next:p=p-1:if pp%<40 then poke ad+p,13:p=p+1
 61450 ad=ad+p:if ad>53179 then 42420
 61455 goto 61410
 61460 id%(ii)=sd-ba:ad=ad-1:poke sd,t%-1:return

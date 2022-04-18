@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="4" name="Schlafzimmer">
-    <desc>Das Schlafzimmer deiner Mutter ist das kleinste Zimmer in eurer Wohnung. Außer dem Bett ist hier nicht viel, einfach weil nicht viel mehr reinpasst. Aber es ist ein freundlicher, sonnenverwöhnter Raum.|Von hier aus geht es nur zurück ins Wohnzimmer.
+    <desc>Das Schlafzimmer deiner Mutter ist das kleinste Zimmer in eurer Wohnung. Außer dem Bett ist hier nichts drin. Aber es ist ein freundlicher, sonnenverwöhnter Raum.|Von hier aus geht es nur zurück ins Wohnzimmer.
     </desc>
     <exits>
         <exit room="wohnzimmer">O</exit>

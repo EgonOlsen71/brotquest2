@@ -2,7 +2,7 @@
 <room id="7" name="Hauseingang">
     <desc>Du befindest dich im Eingangsbereich eures Hauses. Hier sind die Briefkästen und ein sehr langweiliges Anschlagsbrett. Auf dem steht unter anderem, wer
         gerade für die Treppenhausreinigung zuständig ist. So wie das Treppenhaus aussieht, ist der Plan eher ein Vorschlag als eine Verpflichtung.|
-        Die Eingangstür ist eine schwere Glastür mit Metalrahmen, gestrichen in dunkelgrüner Farbe.|Von hier aus geht es nach unten in den Keller, nach oben zu den Wohnungen und nach Westen durch die Tür nach draußen.
+        Die Eingangstür ist eine schwere Glastür mit Metallrahmen, gestrichen in dunkelgrüner Farbe.|Von hier aus geht es nach unten in den Keller, nach oben zu den Wohnungen und nach Westen durch die Tür nach draußen.
     </desc>
     <exits>
         <exit room="treppenhaus">H</exit>

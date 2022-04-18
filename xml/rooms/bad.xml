@@ -14,5 +14,9 @@
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Abblende...es plätschert...es rauscht...Aufblende
         </operation>
+        <operation command="12" item="12" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du greifst beherzt in die Toilette. Langsam tasten sich deine Finger durch das Wasser nach unten in das Rohr...nee, Quatsch!
+        </operation>
     </operations>
 </room>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="14" name="Marktplatz">
-    <desc>Die Nachmittagssonne scheint friedlich auf den Marktplatz. Die mächtigen Lindenbäume in der Mitte des Platzes bekommen erste
+    <desc>Der Marktplatz liegt friedlich in der Nachmittagssonne. Die mächtigen Lindenbäume in der Mitte des Platzes bekommen erste
         Blätter und in ihren Zweigen sitzen die Tauben und schauen auf die paar Passanten hinab, die ab und zu über den Platz huschen.
-        Der Wind ist angenehm warm, trägt allerdings ab und zu den Geruch von altem Fett über den Platz.|Im Nordwesten ist die Hauptstraße,
-        im Süden der Gasthof "Zum Ochsen" und im Norden liegt die örtliche WOBIST-Filiale. Im Osten schließt sich die Kanzleistraße an.
+        An den Linden kleben diverse Konzertplakate. Pink Floyd, Michael Jackson usw...|
+        Der Wind ist angenehm warm, trägt allerdings den Geruch von altem Fett über den Platz.|Im Nordwesten ist die Hauptstraße,
+        im Süden ein Gasthof und im Norden liegt die örtliche WOBIST-Filiale. Im Osten schließt sich die Kanzleistraße an.
     </desc>
     <exits>
         <exit room="hauptstrasse">NW</exit>
@@ -22,7 +23,7 @@
         <operation command="12" item="26" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Die Tauben sitzen träge in den Bäumen und lassen sich von der Sonne wärmen.
-            Vermutlich gibt es hier so viel für sie zu essen, dass sie keinen besonderen Antrieb zu irgendwas haben.
+            Vermutlich gibt es hier so viel für sie zu fressen, dass sie keinen besonderen Antrieb zu irgendwas haben.
         </operation>
     </operations>
 </room>

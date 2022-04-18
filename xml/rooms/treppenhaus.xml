@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="6" name="Treppenhaus">
-    <desc>Du stehst im Treppenhaus eures Wohnblocks. Gegenüber eurer Wohnung ist noch eine weitere, hier wohnt Vladi mit seinen Eltern.
-        Vladi ist etwas älter als Du (oder sieht zumindest so aus) und irgendwie schafft er es, immer die neuesten Computer und die neueste
-        Software zu haben. Manchmal verkauft er sogar Teile davon.|Im Süden liegt eure Wohnung, nach unten geht es zum Hauseingang. Vladis Wohnung liegt im Norden.
+    <desc>Du stehst im Treppenhaus eures Wohnblocks. Gegenüber eurer Wohnung ist noch eine weitere, hier wohnt Vladi mit seinen Eltern und seinem Bruder.
+        Vladi ist etwas älter als du und irgendwie schafft er es, immer die neuesten Computer und die neuesten
+        Spiele zu haben. Manchmal verkauft er sogar etwas davon.|Im Süden liegt eure Wohnung, nach unten geht es zum Hauseingang. Vladis Wohnung liegt im Norden.
     </desc>
     <exits>
         <exit room="flur">S</exit>

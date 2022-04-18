@@ -30,5 +30,9 @@
                    remove_both="" portal_to="">Du schüttest die Cola über Schloss und Scharniere. Liver-Cola schmeckt zwar übel aber sie frisst Rost zum Frühstück.
             Nach etwas Schäumen und Blubbern fällt das Tor widerstandslos ins Gras. Der Garten ist nun offen.
         </operation>
+        <operation command="8" item="41" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item="43"
+                   remove_both="" portal_to="">Du versuchst, das Tor mit der Zange zu öffnen. Es ist sinnlos. Auf die Art klappt das nicht!
+        </operation>
     </operations>
 </room>

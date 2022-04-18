@@ -54,7 +54,7 @@
     </item>
     <item id="13" inventory="1">
         <name>Happy</name>
-        <desc>Die Happy-Computer 4/88</desc>
+        <desc>Die Happy-Computer 4/88. Eine futuristische Stadtansicht ziert ihr Cover.</desc>
     </item>
     <item id="14" inventory="0">
         <name>Klingel</name>
@@ -242,8 +242,7 @@
                with_item="" remove_both="" portal_to="">Nein, du bist nicht durstig!
     </operation>
     <operation command="14" item="13" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
-               with_item="" remove_both="" portal_to="">Dieses Interceptor auf dem Amiga sieht fantastisch aus. Aber
-        vorher nehmen...?
+               with_item="" remove_both="" portal_to="">Sie beginnt mit einem Messebericht. Dieses Interceptor auf dem Amiga sieht fantastisch aus.
     </operation>
     <operation command="15" item="18" unique="" remove_inv=""
                remove_room="" add_room="" add_inv="" unlock="" with_item="1"

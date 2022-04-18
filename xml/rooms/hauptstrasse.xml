@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <room id="12" name="Hauptstraße">
-    <desc>Ein dreckiger Fußweg, der an einer dreckigen Straße in Richtung Zentrum führt. Ständig fahren Autos so dicht an einem vorbei, dass man es mit der Angst zu tun bekommt. Da hilft auch der
+    <desc>Ein dreckiger Fußweg, der an einer dreckigen Straße entlang in Richtung Zentrum führt. Hier fahren die Autos so dicht an einem vorbei, dass man es mit der Angst zu tun bekommt. Da hilft auch der
         klapperige Zaun nicht viel. Hier wurde eindeutig für den Autoverkehr geplant!|Nach Norden geht es in euer Wohnviertel, hinter einer Kurve kann man im Südosten schon den Marktplatz erahnen.
     </desc>
     <exits>
@@ -18,6 +18,10 @@
         <operation command="12" item="23" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Rene ist ein Punk, der oft hier in der Gegend herumlungert. Eigentlicht ist er friedlich, aber sein Hund nicht. Und das weiß Rene auch für sich zu nutzen...
+        </operation>
+        <operation command="9" item="23" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Der Hund würde dich in Stücke reißen!
         </operation>
         <operation command="15" item="23" unique="1" remove_inv="22"
                    remove_room="23" add_room="" add_inv="" unlock="so" with_item="22"

@@ -39,7 +39,7 @@
                    remove_both="" portal_to="">"Ich verkaufe nichts an Halbstarke wie dich. Gibt nur Ärger! Mach dich vom Acker, Junge!"
         </operation>
         <operation command="8" item="28" unique="1" remove_inv="29"
-                   remove_room="" add_room="" add_inv="" unlock="w" with_item="29"
+                   remove_room="27" add_room="" add_inv="" unlock="w" with_item="29"
                    remove_both="" portal_to="">Du lässt die Ratte frei. Sie schnüffelt, fiept und rennt zur Kellertür! Als der Wirt sie erblickt, wird er panisch!
             "Mistvieh!" Er rennt ihr hinterher in den Keller. Die Eichentür fällt hinter ihm zu!
         </operation>

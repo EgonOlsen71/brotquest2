@@ -12,7 +12,7 @@
     <operations>
         <operation command="8" item="30" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
-                   remove_both="" portal_to="">Du ziehst am Hahn. Bier kommt raus und läuft direkt in das Metalgitter unter dem Hahn.
+                   remove_both="" portal_to="">Du ziehst am Hahn. Bier kommt raus und läuft direkt in das Metallgitter unter dem Hahn.
         </operation>
         <operation command="8" item="30" unique="1" remove_inv="31"
                    remove_room="" add_room="" add_inv="32" unlock="" with_item="31"
