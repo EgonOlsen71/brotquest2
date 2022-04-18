@@ -545,27 +545,27 @@
 
 60000 rem init
 60002 print "Einen Moment..."
-60005 mx%=30:mr%=35:mi%=50:mc%=16:xo%=9:cb$=chr$(13)+"> ":lr%=0:mo%=20
+60005 mx%=30:mr%=35:mi%=51:mc%=16:xo%=9:cb$=chr$(13)+"> ":lr%=0:mo%=21
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
-60010 dim it$(50), il$(50), mv%(50), ti%: rem all items (mi%)
+60010 dim it$(51), il$(51), mv%(51), ti%: rem all items (mi%)
 60020 dim rd$(24), pl%, rd%: rem current room's description
 60030 dim ex$(8), xn$(8), lk%(8), el%: rem crt. room's exits and names
 60035 dim lx$(35,3): rem flag, which exits are unlocked (mr%)
 60040 dim ri$(8), il%: rem current room's items
-60050 dim iv%(50), ic%: rem inventory (mi%)
+60050 dim iv%(51), ic%: rem inventory (mi%)
 60055 dim ip%(20), tc%: rem items still in the room (20 is generous)
-60060 dim uv%(50): rem used (flag) from inventory (mi%)
+60060 dim uv%(51): rem used (flag) from inventory (mi%)
 60070 dim xp$(8), xx$(8), xc%: rem exits usable in the room
 60080 dim cp$(8), cv%(8): rem lexer results
 60090 dim cm$(mc%, 5), cv$(mc%): rem commands
-60100 dim id%(50): rem item descriptions' addresses (mi%)
+60100 dim id%(51): rem item descriptions' addresses (mi%)
 60110 dim rv%(35,8): rem additional room inventory (mr%)
-60120 dim rs%(50): rem flag, that an item lies somewhere else (mi%)
+60120 dim rs%(51): rem flag, that an item lies somewhere else (mi%)
 60130 for i=0 to mr%:for p=0 to 8:rv%(i,p)=-1:next p,i: rem clear room inv.
 60140 dim dr$(9):for i=0 to 9:read dr$(i):next: rem direction strings
 60150 dim op%(9,10), op$(9,5), oc%: rem possible operations in a room (xo%)
 60160 dim od$(30), od%: rem operations applied (command ID_item 1_item_2) (mx%)
-60170 dim og%(20,10), og$(20,5), gc%: rem ops. on items in the inventory (mo%)
+60170 dim og%(21,10), og$(21,5), gc%: rem ops. on items in the inventory (mo%)
 60180 dim ac%(10): rem actions of the current operation
 60190 rl$="": rem human readable room name
 60200 po%=0: rem point (each unique operation increases them by 10)

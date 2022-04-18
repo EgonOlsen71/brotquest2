@@ -200,6 +200,14 @@
         <name>Notiz</name>
         <desc>Eine Notiz von Tanja...oder wer das auch war!</desc>
     </item>
+    <item id="50" inventory="1">
+        <name>Amiga</name>
+        <desc>Ein Amiga 500, komplett mit 1MB, Kabeln und Netzteil. Und ein paar Spielen!</desc>
+    </item>
+    <item id="51" inventory="0">
+        <name>Jaro</name>
+        <desc>Jaro ist Vladis kleiner Bruder. Es ist etwas jünger als du.</desc>
+    </item>
 
     <operation command="12" item="37" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Eine Rattenfalle. Es scheint irgendetwas drin zu sein.
@@ -243,7 +251,7 @@
     </operation>
     <operation command="15" item="18" unique="" remove_inv=""
                remove_room="" add_room="" add_inv="" unlock="" with_item="5"
-               remove_both="" portal_to="">Super Idee. Das macht Eindruck!
+               remove_both="" portal_to="">Das ist vielleicht keine so gute Idee...
     </operation>
     <operation command="15" item="18" unique="" remove_inv=""
                remove_room="" add_room="" add_inv="" unlock="" with_item="10"
@@ -267,6 +275,9 @@
     </operation>
     <operation command="12" item="49" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Die Notiz wurde auf hochwertigem Papier geschrieben
+    </operation>
+    <operation command="12" item="50" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
+               with_item="" remove_both="" portal_to="">Der A500 ist nicht neu, aber in gutem Zustand. Und er gehört jetzt dir!
     </operation>
     <operation command="14" item="49" unique="" remove_inv="" remove_room="" add_room="" add_inv="" unlock=""
                with_item="" remove_both="" portal_to="">Sie trägt das Logo der Anwaltskanzlei "von Piepenreuth". Vladis Name ist darauf notiert, aber kein Nachname. Daneben "Nummer 8? 10?".

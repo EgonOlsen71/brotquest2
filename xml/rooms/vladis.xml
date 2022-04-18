@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<room id="33" name="Vladis Bude">
+    <desc>Vladis Zimmer ist voller Computer. Im Prinzip sieht es so aus, als hätte man die WOBIST-Filiale in einen einzelnen Raum gestopft.
+        Hier gibt es drei Amigas, einen Atari ST, zwei C64, einen C128 und sogar einen CPC. Und noch ein paar andere, die dir nichts sagen.|Außerdem stapeln sich
+        Diskettenboxen übereinander, alle gefüllt mit dezentralen Sicherheitskopien, wie Vladi sie nennt.|Vladi ist nicht hier, stattdessen begrüßt dich Jaro, sein Bruder.|Nach Süden geht es raus aus Vladis Bude und zurück ins Treppenhaus.
+    </desc>
+    <exits>
+        <exit room="treppenhaus">S</exit>
+    </exits>
+    <items>
+        <item>51</item>
+        <item>33</item>
+    </items>
+    <operations>
+        <operation command="9" item="51" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du könntest es wie einen Unfall aussehen lassen...oder Jaro macht das mit dir...
+        </operation>
+        <operation command="13" item="51" unique="1" remove_inv=""
+                   remove_room="" add_room="" add_inv="50" unlock="" with_item=""
+                   remove_both="" portal_to="">"Vladi hat sich hingelegt. Ist total fertig! Aber er möchte, dass du das hier bekommst!"
+            Er drückt die einen Amiga 500 mit Kabeln und Software in die Hand. "Danke nochmals!"
+        </operation>
+        <operation command="8" item="33" unique="" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item=""
+                   remove_both="" portal_to="">Du weißt gar nicht, auf welchen du zuerst herumtippen sollst und entscheidest dich daher für gar keinen!
+        </operation>
+    </operations>
+</room>

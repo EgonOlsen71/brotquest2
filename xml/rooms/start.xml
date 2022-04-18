@@ -24,6 +24,11 @@
             läuft nichts
             Interessantes auf irgendeinem der fünf Programme.
         </operation>
+        <operation command="8" item="2" unique="1" remove_inv="50"
+                   remove_room="" add_room="" add_inv="" unlock="" with_item="50"
+                   remove_both="" portal_to="1">Du schließt den Amiga 500 per Scart an den Fernseher an, Netzteil ran, POWER...eine Hand erscheint, die eine blaue Diskette hält.
+            Du schiebst ein Spiel ins Laufwerk...
+        </operation>
         <operation command="9" item="2" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Du haust gegen den Fernseher. Warum auch

@@ -25,11 +25,11 @@
 2030 if x<0 then b$=right$(a$, x+l)
 2040 gosub 600:print b$;:next:return
 
-10000 data 1," BROTQUEST II"
-10010 data 12," ------------ ",0,""
+10000 data 1," BROTQUEST II - Kiss me, Amiga"
+10010 data 12,"  ----------------------------- ",0,""
 10020 data 7," ein Textadventure von ",5," EgonOlsen71 ",0,"",0,""
-10030 data 1," Die Sommerferien '84 beginnen ",15," und der Wunsch nach "
-10040 data 12," einem dieser neuen Heimcomputer ", 11," ist stark in dir! "
+10030 data 1," Fruehling 1988, das Geld ist ",15," knapp und der C64 "
+10040 data 12," ist defekt! ", 11," Ein Amiga muss dennoch her... "
 10050 data 0,"",0,"",1," Nutze Befehle wie: ", 10," schau schrank "
 10060 data 15," oder ", 10," benutze hammer mit nagel ", 12," oder auch "
 10070 data 10," gib mann die diskette ", 11," um zum Ziel zu kommen. "

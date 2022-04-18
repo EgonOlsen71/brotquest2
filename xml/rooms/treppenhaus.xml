@@ -2,11 +2,12 @@
 <room id="6" name="Treppenhaus">
     <desc>Du stehst im Treppenhaus eures Wohnblocks. Gegenüber eurer Wohnung ist noch eine weitere, hier wohnt Vladi mit seinen Eltern.
         Vladi ist etwas älter als Du (oder sieht zumindest so aus) und irgendwie schafft er es, immer die neuesten Computer und die neueste
-        Software zu haben. Manchmal verkauft er sogar Teile davon.|Im Süden liegt eure Wohnung, nach unten geht es zum Hauseingang.
+        Software zu haben. Manchmal verkauft er sogar Teile davon.|Im Süden liegt eure Wohnung, nach unten geht es zum Hauseingang. Vladis Wohnung liegt im Norden.
     </desc>
     <exits>
         <exit room="flur">S</exit>
         <exit room="eingang">R</exit>
+        <exit room="vladis" locked="1">N</exit>
     </exits>
     <items>
         <item>14</item>
@@ -21,9 +22,13 @@
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Bei näherer Betrachtung sieht die Klingel etwas ramponiert aus. Sie hängt halb aus der Wand und man kann dahinter die Kabel sehen.
         </operation>
-        <operation command="8" item="15" unique="1" remove_inv=""
+        <operation command="8" item="15" unique="1" remove_inv="17"
                    remove_room="15" add_room="16" add_inv="" unlock="" with_item="17"
-                   remove_both="" portal_to="">Du klopfst mit dem Tischbein an die Tür. Nach einer Weile öffnet dir Vladi, wie immer in Jogginghose. "Alter, wieso klingest du nicht...schon wieder kaputt?". Er beginnt, an der Klingel zu fummeln...
+                   remove_both="" portal_to="">Du klopfst mit dem Tischbein an die Tür. Nach einer Weile öffnet dir Vladi, wie immer in Jogginghose. "Alter, gib das Holz her...Klingel schon wieder kaputt?". Er beginnt, an der Klingel zu fummeln...
+        </operation>
+        <operation command="8" item="14" unique="1" remove_inv=""
+                   remove_room="" add_room="" add_inv="" unlock="" with_item="43"
+                   remove_both="" portal_to="">Du manipulierst mit der Zange an der Klingel herum, sie rutscht noch ein Stück weiter aus der Wand...lass das lieber sein!
         </operation>
         <operation command="8" item="15" unique="" remove_inv=""
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
@@ -41,5 +46,11 @@
                    remove_room="" add_room="" add_inv="" unlock="" with_item=""
                    remove_both="" portal_to="">Du prügelst Vladi bewusstlos und klaust ihm alle seine Computer...nicht! Bist du noch ganz knusper?
         </operation>
+        <operation command="15" item="16" unique="1" remove_inv="49"
+                   remove_room="16" add_room="" add_inv="" unlock="n" with_item="49"
+                   remove_both="" portal_to="">Du erzählst Vladi die Tanja-Sache und gibst ihm die Notiz. Vladi starrt sie ungläubig an.
+            "Alter...das ist krass, oder? Da ist wohl ein Dankeschön fällig. Komm mal mit rein!"
+        </operation>
+
     </operations>
 </room>

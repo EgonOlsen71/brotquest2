@@ -157,7 +157,7 @@
 			<dock index="0" id="61" port="s" />
 			<dock index="1" id="34" port="n" />
 		</line>
-		<room id="63" name="Bauwagen" subtitle="" x="-288" y="416" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<room id="63" name="Baustelle" subtitle="" x="-288" y="416" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
 		<line id="64" name="" description="">
 			<dock index="0" id="61" port="ne" />
 			<dock index="1" id="63" port="sw" />
@@ -170,6 +170,11 @@
 		<line id="67" name="" description="">
 			<dock index="0" id="35" port="w" />
 			<dock index="1" id="66" port="e" />
+		</line>
+		<room id="68" name="Vladis Zimmer" subtitle="" x="96" y="-256" w="96" h="64" region="NoRegion" handDrawn="no" allcornersequal="yes" ellipse="no" roundedCorners="no" octagonal="no" cornerTopLeft="15" cornerTopRight="15" cornerBottomLeft="15" cornerBottomRight="15" borderstyle="Solid" description="" roomFill="" secondFill="" secondFillLocation="Bottom" roomBorder="" roomLargeText="" roomSubtitleColor="" roomSmallText="" ZOrder="0" />
+		<line id="69" name="" description="">
+			<dock index="0" id="68" port="s" />
+			<dock index="1" id="6" port="n" />
 		</line>
 	</map>
 	<settings>
