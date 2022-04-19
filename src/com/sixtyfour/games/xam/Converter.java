@@ -312,9 +312,9 @@ public class Converter {
 
 	private int getConvertedChar(int c) {
 		if (c >= 'a' && c <= 'z') {
-			c = (char) ((int) c - 32);
+			c = (char) (c - 32);
 		} else if (c >= 'A' && c <= 'Z') {
-			c = (char) ((int) c + 32);
+			c = (char) (c + 32);
 		}
 		return c;
 	}

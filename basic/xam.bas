@@ -74,12 +74,12 @@
 41230 return
 
 41300 rem add room inventory items to visible items
-41310 for i=0 to 8:p=rv%(rd%,i):ff%=0
-41320 if p=-1 then 41360
+41310 for i=0 to 8:p%=rv%(rd%,i):ff%=0
+41320 if p%=-1 then 41360
 41325 if ic%=0 then 41350
-41330 for ii=0 to ic%-1:if iv%(ii)=p then ff%=1:ii=ic%
+41330 for ii=0 to ic%-1:if iv%(ii)=p% then ff%=1:ii=ic%
 41340 next ii:if ff%=1 then 41360
-41350 ip%(tc%)=p:tc%=tc%+1
+41350 ip%(tc%)=p%:tc%=tc%+1
 41360 next:return
 
 41400 rem drop item in t%
@@ -483,6 +483,7 @@
 58530 if t%=co% then t2%=j:gosub 42200
 58540 if rt%=1 then return
 58550 next
+
 58700 rem generic item operations
 58710 rt%=0:for j=0 to gc%-1:t%=og%(j,0)
 58720 if t%=co% then t2%=j:gosub 42700
@@ -583,7 +584,7 @@
 61010 sx$="":li=1:for i=1 to len(tx$)
 61020 if mid$(tx$,i,1)<>";" then 61040
 61030 gosub 61100:sx$=sx$+",":li=i+1
-61040 next
+61040 next:if li=1 then return: rem shortcut...
 61050 gosub 61100
 61060 tx$=sx$:return
 
@@ -638,7 +639,7 @@
 62000 rem load room data
 62005 gosub 62100:open2,dn%,2,rn$:gosub 61700:rd%=val(a$):poke 646,15
 62008 gosub 61700:rl$=a$
-62010 gosub 61700:gosub 59860
+62010 input#2,a$:gosub 59860: rem no gosub 61700 for performance reasons
 62020 if a$="***" then md%=md%+1:goto 62050
 62030 tx$=a$:gosub 61000:a$=tx$
 62040 on md% gosub 62200, 62300, 62400, 42000
@@ -648,7 +649,7 @@
 62100 rem init room data
 62110 md%=1:pl%=0:el%=0:il%=0:oc%=0:xc%=0:tc%=0
 62120 for i=0 to pl%-1:rd$(i)="":next
-62130 for i=0 to 8:for ii=0 to 5:op$(i,ii)="":next:next
+62130 for i=0 to xo%:for ii=0 to 5:op$(i,ii)="":next:next
 62140 return
 
 62200 rem assign room description
@@ -702,10 +703,10 @@
 
 62900 rem calculate usable exits
 62905 xc%=0:if el%=0 then return
-62910 for i=0 to el%-1:p=1:if lk%(i)=0 then 62940
-62920 p=0:for ii=0 to 3:tx$=lx$(rd%, ii):gosub 63100:a1$=tx$
-62925 tx$=ex$(i):gosub 63100:a2$=tx$:if a1$=a2$ then p=1:ii=4
-62930 next ii:if p=0 then 62950
+62910 for i=0 to el%-1:p%=1:if lk%(i)=0 then 62940
+62920 p%=0:for ii=0 to 3:tx$=lx$(rd%, ii):gosub 63100:a1$=tx$
+62925 tx$=ex$(i):gosub 63100:a2$=tx$:if a1$=a2$ then p%=1:ii=4
+62930 next ii:if p%=0 then 62950
 62940 xp$(xc%)=ex$(i):xx$(xc%)=xn$(i):xc%=xc%+1
 62950 next i:return
 
