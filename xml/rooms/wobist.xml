@@ -27,7 +27,7 @@
         </operation>
         <operation command="15" item="34" unique="1" remove_inv="1"
                    remove_room="" add_room="" add_inv="" unlock="no" with_item="1"
-                   remove_both="" portal_to="">"Kaputt? Tja, aber du siehst Pleite aus. Pass auf! Im Hof ist ein Sack Schrott. Bring den zum Container auf der Baustelle
+                   remove_both="" portal_to="">"Kaputt? Tja, aber du siehst pleite aus. Pass auf! Im Hof ist ein Sack Schrott. Bring den zum Container auf der Baustelle
             und ich schaue mir das Gerät mal an, ok?" Du nickst und gibst ihm den C64. "Bring den Sack wieder mit!"
         </operation>
         <operation command="15" item="34" unique="1" remove_inv="36"

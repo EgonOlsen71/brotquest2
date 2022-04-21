@@ -100,8 +100,9 @@
 42010 for i=0 to 10
 42015 gosub 45200
 42020 op%(oc%,i)=val(a$):gosub 61700:next
-42040 for i=0 to 5:op$(oc%,i)="":next:ii=0
+42040 for i=0 to ox%:op$(oc%,i)="":next:ii=0
 42050 tx$=a$:gosub 61000:op$(oc%,ii)=tx$:gosub 61700:ii=ii+1
+42055 if ii>ox%+1 then 42420
 42060 if a$="***" then oc%=oc%+1:return
 42070 goto 42050
 
@@ -109,7 +110,7 @@
 42210 p=op%(t2%,1):pp=op%(t2%,8):gosub 42900:if rt%=0 then return
 42220 uq%=op%(t2%,2):if uq%<>1 then 42270: rem non-unique
 42230 gosub 43000:if rt%=1 then return
-42270 for i=0 to 5:a$=op$(t2%,i):if len(a$)=0 then i=5:goto 42290
+42270 for i=0 to ox%:a$=op$(t2%,i):if len(a$)=0 then i=ox%:goto 42290
 42280 gosub 59100
 42290 next:for i=0 to 10:ac%(i)=op%(t2%,i):next
 42300 gosub 43400
@@ -554,7 +555,7 @@
 
 60000 rem init
 60002 print "Einen Moment..."
-60005 mx%=30:mr%=35:mi%=51:mc%=16:xo%=9:cb$=chr$(13)+"> ":lr%=0:mo%=21
+60005 mx%=30:mr%=35:mi%=51:mc%=16:xo%=9:cb$=chr$(13)+"> ":lr%=0:mo%=21:ox%=6
 60006 al$="alles":ms%=5:dim i,ii,p,pp,ad:fi$="save.dat":ba=49152:ad=ba
 60010 dim it$(51), il$(51), mv%(51), ti%: rem all items (mi%)
 60020 dim rd$(24), pl%, rd%: rem current room's description
@@ -572,7 +573,7 @@
 60120 dim rs%(51): rem flag, that an item lies somewhere else (mi%)
 60130 for i=0 to mr%:for p=0 to 8:rv%(i,p)=-1:next p,i: rem clear room inv.
 60140 dim dr$(9):for i=0 to 9:read dr$(i):next: rem direction strings
-60150 dim op%(9,10), op$(9,5), oc%: rem possible operations in a room (xo%)
+60150 dim op%(9,10), op$(9,6), oc%: rem possible operations in a room (xo%) , ox%
 60160 dim od$(30), od%: rem operations applied (command ID_item 1_item_2) (mx%)
 60170 dim og%(21,10), og$(21,5), gc%: rem ops. on items in the inventory (mo%)
 60180 dim ac%(10): rem actions of the current operation
@@ -649,7 +650,7 @@
 62100 rem init room data
 62110 md%=1:pl%=0:el%=0:il%=0:oc%=0:xc%=0:tc%=0
 62120 for i=0 to pl%-1:rd$(i)="":next
-62130 for i=0 to xo%:for ii=0 to 5:op$(i,ii)="":next:next
+62130 for i=0 to xo%:for ii=0 to ox%:op$(i,ii)="":next:next
 62140 return
 
 62200 rem assign room description
