@@ -1,0 +1,113 @@
+nimm c64
+nimm magazin
+o
+o
+oeffne kuehlschrank
+s
+s
+nimm happy
+nimm geld
+n
+w
+n
+r
+r
+nimm tischbein
+h
+w
+gib maedchen happy
+sw
+n
+benutze geld in automat
+s
+s
+gib rene zigaretten
+so
+n
+gib c64 verkaeufer
+no
+o
+untersuche unrat
+nimm falle
+oeffne falle
+w
+nimm schrott
+sw
+s
+o
+n
+lies computerwoche
+s
+o
+n
+benutze schrott mit container
+s
+w
+w
+n
+gib sack an verkaeufer
+s
+o
+o
+o
+gib zehner an rocco
+o
+n
+nimm flasche
+s
+w
+w
+w
+w
+w
+s
+benutze ratte mit kellertuer
+w
+benutze flasche mit zapfhahn
+o
+n
+o
+o
+n
+no
+gib arbeitern das magazin
+gib manfred das bier
+nimm zange
+sw
+s
+s
+so
+benutze cola auf gartentor
+w
+benutze zange mit brettern
+w
+oeffne schrank
+nimm vogelfutter
+o
+o
+nw
+nw
+w
+gib tauben vogelfutter
+nw
+n
+no
+benutze vogelfutter auf tanja
+nimm notiz
+o
+h
+benutze tischbein an tuer
+gib vladi die notiz
+n
+rede mit jaro
+s
+s
+w
+benutze amiga mit fernseher
+q
+
+ENDE mit 220 Punkten
+
+
+
+
