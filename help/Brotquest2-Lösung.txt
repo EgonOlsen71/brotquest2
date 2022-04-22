@@ -6,6 +6,7 @@ oeffne kuehlschrank
 s
 s
 nimm happy
+n
 nimm geld
 n
 w
@@ -55,7 +56,6 @@ o
 n
 nimm flasche
 s
-w
 w
 w
 w
