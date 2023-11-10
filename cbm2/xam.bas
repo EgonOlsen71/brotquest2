@@ -1,4 +1,4 @@
-10 dn%=8:bank 15:gosub 63300:gosub 60000
+10 bank 15:dn%=peek(159):gosub 63300:gosub 60000
 15 gosub 61200:gosub 48000:gosub 61500
 20 rn$="start.rom":gosub 63300
 30 gosub 40100
@@ -399,8 +399,7 @@
 52900 rem 
 52902 rem cmd info
 52904 rem
-53100 print:print " XAM / EgonOlsen71"
-53120 print fre(0);"Bytes frei"
+53100 print:print " XAM 4 CBM2 / EgonOlsen71"
 53140 return
 
 53200 rem 
@@ -565,7 +564,7 @@
 60060 dim uv%(51): rem used (flag) from inventory (mi%)
 60070 dim xp$(8), xx$(8), xc%: rem exits usable in the room
 60080 dim cp$(8), cv%(8): rem lexer results
-60090 dim cm$(mc%, 5), cv$(mc%): rem commands
+60090 dim cm$(16, 5), cv$(16): rem commands (mc%)
 60110 dim rv%(35,8): rem additional room inventory (mr%)
 60120 dim rs%(51): rem flag, that an item lies somewhere else (mi%)
 60130 for i=0 to mr%:for p=0 to 8:rv%(i,p)=-1:next p,i: rem clear room inv.
@@ -733,7 +732,7 @@
 63280 return
 
 63300 rem clear output
-63310 print chr$(14);chr$(147)
+63310 print chr$(14);chr$(147);chr$(27);chr$(72);
 63320 return
 
 63400 data "n", "s", "w", "o", "nw", "sw", "no", "so", "h", "r"

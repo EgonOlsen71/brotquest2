@@ -15,7 +15,8 @@ import java.util.Set;
 /**
  * A hacky converter tool that takes XML-files located in the xml-subdir and
  * converts it into SEQ-files in the seq directory that the BASIC/compiled XAM
- * interpreter running on the CBM 2 can read.
+ * interpreter running on the CBM 2 can read. These machines are using a different casing
+ * and different formatting.
  * 
  * @author EgonOlsen
  *
