@@ -712,7 +712,8 @@
 63035 a$=str$(po%):print spc(79-len(rl$)-len(a$));a$
 63036 print chr$(146)
 63040 print chr$(19);:for p=1 to ii:print chr$(17);:next
-63050 for p=1 to i:print chr$(29);:next:return
+63050 if i>0 then for p=1 to i:print chr$(29);:next
+63060 return
 
 63100 rem convert tx$ to lower case
 63105 c%=len(tx$):if c%=0 then return
